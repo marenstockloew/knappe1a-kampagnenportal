@@ -1,0 +1,62 @@
+dateModified: 1656580396
+email:
+  fromEmail: m.stockloew@posteo.de
+  fromName: knappe1a
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    1bdefab8-0a6f-43f1-81e9-ea647c9951f1: 'Infobox Tabelle' # Infobox Tabelle
+    2cda8555-0e69-471e-89a4-686b2612fc93: 'Vergangene Veranstaltung' # Vergangene Veranstaltung
+    2e9b7b8a-13ba-44f1-86df-f19e414e2f7f: Kurzbeschreibung # Kurzbeschreibung
+    3dcb9279-424c-44e9-a64e-99741b4bca88: Aktuelles # Aktuelles
+    3e3b58ba-70ac-4e8a-a666-bfeb004477e3: Home # Home
+    5a041192-e936-4246-9c7b-461a068763f7: Titelbild # Titelbild
+    6b958387-7d64-4b74-b25e-024b7acdb8e2: Logo # Logo
+    6bb66f74-adc8-4919-9f78-89a964482176: 'Ausführlicher Text' # Ausführlicher Text
+    8bcb303a-e7ae-4b94-be2f-e7a8a31f1541: Home # Home
+    13fa6ae6-827e-48e9-8873-1be1e1ad0dbf: Pages # Pages
+    36abde1f-5a22-485e-8435-a4fb6ac82354: knappe1a # knappe1a
+    66a0921c-ce39-4564-a7a7-312ff283966b: 'Titel der Website' # Titel der Website
+    92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a: Uploads # Uploads
+    93cc2317-af18-44da-aa2f-b4e472f1e767: Newsfoto # Newsfoto
+    240b70ba-02f3-484b-8455-003a1f5730ec: Common # Common
+    360f35ce-147c-4f20-bc75-e17795ec57d0: Fotos # Fotos
+    394b40d9-3c2b-4b31-8e1e-6f6ef637b917: knappe1a # knappe1a
+    868af8af-01e4-4cf2-a0ae-3bd6def87977: Datum # Datum
+    1057c348-12f1-4a0d-b548-7f404b04b6e5: Pages # Pages
+    3777a085-06d2-424c-9e6f-e2a2c471d061: Thumbnail # Thumbnail
+    280065d5-8d61-4f36-a5f6-7c4e119b3dfb: Homepage # Homepage
+    45667271-0443-4f95-9c48-5d20082fdd41: Homepage # Homepage
+    78036043-2fae-4f1d-a283-3309b27d1e5e: Newstitel # Newstitel
+    95304307-4802-49bd-87db-1fe67d82846f: Kurzbeschreibung # Kurzbeschreibung
+    acdd27ad-f040-43ed-be9c-cc3ca7449849: Newseinträge # Newseinträge
+    b6aa21ff-b764-4f40-b410-3b12ca90a222: 'Vergangene Veranstaltungen' # Vergangene Veranstaltungen
+    c85719cd-5205-4bce-a16a-4ca8cb670c76: 'Header Infobox' # Header Infobox
+    e58b2cf5-e256-45dd-b463-10d525f9caee: 'Infobox Textfeld' # Infobox Textfeld
+    f8119d30-b0ed-46a2-905d-cf20e1775e07: Newseintrag # Newseintrag
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: knappe1a
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: Europe/Berlin
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

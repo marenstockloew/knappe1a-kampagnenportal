@@ -1,0 +1,55 @@
+fieldLayouts:
+  e5c642cb-8504-4045-a7cf-b0f370ba5734:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3777a085-06d2-424c-9e6f-e2a2c471d061 # Thumbnail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34eb7739-7597-44bc-b2ab-0447cbd27c4f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 27a78151-c215-4888-ab96-60972c7805c0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 81c00f61-37d7-40b3-9621-c53018fa8d51
+        userCondition: null
+handle: homepage
+hasTitleField: true
+name: Homepage
+section: 13fa6ae6-827e-48e9-8873-1be1e1ad0dbf # Pages
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de
+name: knappe1a
+primary: true
+siteGroup: 394b40d9-3c2b-4b31-8e1e-6f6ef637b917 # knappe1a
+sortOrder: 1

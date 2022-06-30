@@ -1,0 +1,42 @@
+{% extends "index" %}
+
+{% block content %}
+
+    <div class="m-5 flex justify-center place-items-center bg-cover"> {# style="background-image: url('{{image.url}}');" #}
+        <h1 class="text-slate-800">{{ entry.titelDerWebsite }}</h1>
+    </div>
+
+    <div class="bg-knappe-rot bg-opacity-20 rounded-sm p-7">
+
+        <h3>{{entry.headerInfobox}}</h3>
+        <p>{{entry.infoboxTabelle}}</p>
+
+    </div>
+
+    <div class="p-2">
+
+        <div class="my-3">
+            <h2>{{ entry.aktuelles }}</h2>
+        </div>
+
+        {% for eintrag in entry.newseintraege.all() %}
+
+            {% set photo = eintrag.newsfoto.one() %}
+
+            <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6">
+
+                <div class="w-full md:col-span-3 md:relative my-2 md:my-5">
+                    <img src="{{photo.url}}" alt="Bild zum Thema {{eintrag.newstitel}}" class="object-cover h-full w-full">
+                </div>
+                <div class="md:col-span-5 my-2 md:my-5">
+                    <p>Platzhalter Datum</p>
+                    <h3>{{eintrag.newstitel}}</h3>
+                    <p>{{eintrag.kurzbeschreibung}}</p>
+                </div>
+
+            </div>
+        {% endfor %}
+
+    </div>
+
+{% endblock %}

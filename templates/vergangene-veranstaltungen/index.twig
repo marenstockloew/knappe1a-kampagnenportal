@@ -1,0 +1,34 @@
+{% extends "index" %}
+
+{% block content %}
+
+    {% set bild =  craft.entries.section('home').one().titelbild.one() %}
+
+    <div class="my-1 bg-stone-300 rounded-md h-[20vh] flex justify-center place-items-center bg-cover"
+        style="background-image: url('{{bild.url}}');">
+        <h1 class="text-gray-100">Vergangene Veranstaltungen</h1>
+    </div>
+
+    {% set veranstaltungen = craft.entries.section('vergangeneVeranstaltungen').all() %}
+    
+    {% for veranstaltung in veranstaltungen %}
+
+    {% set foto = veranstaltung.fotos.one() %}
+
+        <div class="m-5 md:grid md:grid-cols-8 content-center items-center">
+
+            <div class="md:col-start-2 md:col-span-2 m-2">
+                <img src="{{foto.url}}" alt="Veranstaltungsfoto: {{foto.title}}" class="h-[30vh] rounded-sm shadow-sm">
+            </div>
+
+            <div class="md:col-start-4 md:col-span-4">
+                <h2>{{veranstaltung.title}}</h2>
+                <p>{{veranstaltung.kurzbeschreibung}}</p>
+                <a href="{{veranstaltung.url}}" class="link">mehr Infos</a>
+            </div>
+
+        </div>
+
+    {% endfor %}
+
+{% endblock %}

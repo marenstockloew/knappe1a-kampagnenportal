@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/styles.css">
+    <title>Knappe 1a</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-neutral-50">
+
+{% set home = craft.entries.section('home').one() %}
+{% set logo =  craft.entries.section('home').one().logo.one() %}
+
+    <div class="">
+
+        <div class="sm:grid sm:grid-cols-7">
+
+            <div class="sm:col-span-2 sm:border-r-[0.1rem] sm:border-slate-800 sm:p-6 sm:h-screen sm:overflow-y-scroll">
+
+                {# md:sticky md:top-0 #}
+                <a href="{{home.url}}"><div class="m-2 flex justify-center items-center"><img src="{{logo.url}}" class="w-1/2 justify-center sm:w-full"></div></a>
+
+                {% set pages = craft.entries.section('pages').all() %}
+    
+                {% for page in pages %}
+
+                {% set thumbnail = page.thumbnail.one() %}
+
+                <a href="{{page.url}}">
+                    <div class="border-b-[0.1rem] border-slate-800 py-2 sm:py-4">
+                        <img src="{{thumbnail.url}}" class="sm:w-4/5 mx-auto hidden sm:block">
+                        <h3 class="text-center sm:hidden lg:block">{{ page.title }}</h3>
+                        <strong class="text-center hidden sm:block lg:hidden">{{ page.title }}</strong>
+                    </div>
+                </a>
+
+                {% endfor %}
+
+                {# <ul class="" >
+                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
+                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
+                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
+                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
+                </ul> #}
+
+            </div>
+
+            <div class="sm:col-span-5 sm:h-screen sm:overflow-y-scroll"> 
+
+                <div class="sm:m-4">
+
+                    {% block content %}
+                    {% endblock %}
+
+                </div>
+
+                <footer>
+                    <div class="bg-stone-300 flex justify-center items-center">FOOTER</div>
+                </footer>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

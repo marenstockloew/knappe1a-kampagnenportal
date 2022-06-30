@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 280065d5-8d61-4f36-a5f6-7c4e119b3dfb # Homepage
+handle: newseintraege
+instructions: null
+name: Newseinträge
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_newseintraege}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

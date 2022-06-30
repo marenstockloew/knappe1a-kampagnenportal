@@ -1,0 +1,166 @@
+field: acdd27ad-f040-43ed-be9c-cc3ca7449849 # Newseinträge
+fieldLayouts:
+  84a15c50-2255-46cf-ba7a-c50e70226879:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 93cc2317-af18-44da-aa2f-b4e472f1e767 # Newsfoto
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a4f71d0-b73d-4a15-bb14-c8032124e81f
+            warning: null
+            width: 100
+          -
+            fieldUid: 868af8af-01e4-4cf2-a0ae-3bd6def87977 # Datum
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45956594-401d-43d6-bde8-dd6483617fd4
+            warning: null
+            width: 100
+          -
+            fieldUid: 78036043-2fae-4f1d-a283-3309b27d1e5e # Newstitel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7c300e1c-cadb-4918-bdec-b97523330fbe
+            warning: null
+            width: 100
+          -
+            fieldUid: 95304307-4802-49bd-87db-1fe67d82846f # Kurzbeschreibung
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe4bc6dd-b4cd-4fbc-8b13-6e05f3bff758
+            warning: null
+            width: 100
+        name: Content
+        uid: 21baddab-deea-4924-a07f-8d8dfa580be4
+fields:
+  93cc2317-af18-44da-aa2f-b4e472f1e767: # Newsfoto
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: newsfoto
+    instructions: null
+    name: Newsfoto
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: 1
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: Foto
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a' # Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  868af8af-01e4-4cf2-a0ae-3bd6def87977: # Datum
+    columnSuffix: agvtrzhs
+    contentColumnType: datetime
+    fieldGroup: null
+    handle: datum
+    instructions: null
+    name: Datum
+    searchable: false
+    settings:
+      max: null
+      min: null
+      minuteIncrement: 30
+      showDate: true
+      showTime: false
+      showTimeZone: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Date
+  78036043-2fae-4f1d-a283-3309b27d1e5e: # Newstitel
+    columnSuffix: xqtgblnz
+    contentColumnType: text
+    fieldGroup: null
+    handle: newstitel
+    instructions: null
+    name: Newstitel
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  95304307-4802-49bd-87db-1fe67d82846f: # Kurzbeschreibung
+    columnSuffix: uutkcvsn
+    contentColumnType: text
+    fieldGroup: null
+    handle: kurzbeschreibung
+    instructions: null
+    name: Kurzbeschreibung
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: newseintrag
+name: Newseintrag
+sortOrder: 1

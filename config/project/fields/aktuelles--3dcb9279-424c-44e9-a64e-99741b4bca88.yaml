@@ -1,0 +1,27 @@
+columnSuffix: zujxmeeg
+contentColumnType: text
+fieldGroup: 280065d5-8d61-4f36-a5f6-7c4e119b3dfb # Homepage
+handle: aktuelles
+instructions: 'Überschrift und eventuell kleiner Text, um den Newsbereich einzuführen.'
+name: Aktuelles
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

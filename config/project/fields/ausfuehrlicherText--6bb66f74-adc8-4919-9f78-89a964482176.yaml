@@ -1,0 +1,27 @@
+columnSuffix: rcevlyen
+contentColumnType: text
+fieldGroup: 240b70ba-02f3-484b-8455-003a1f5730ec # Common
+handle: ausfuehrlicherText
+instructions: null
+name: 'Ausführlicher Text'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

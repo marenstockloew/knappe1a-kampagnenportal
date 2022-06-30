@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: vergangeneVeranstaltungen
+name: 'Vergangene Veranstaltungen'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primäre eintrag Seite'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  36abde1f-5a22-485e-8435-a4fb6ac82354: # knappe1a
+    enabledByDefault: true
+    hasUrls: true
+    template: vergangene-veranstaltungen/_entry
+    uriFormat: 'vergangene-veranstaltungen/{slug}'
+type: channel
