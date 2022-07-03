@@ -1,3 +1,6 @@
+{% set pageTitle = entry.title|default('Home') ~ " | " ~ siteName  %}
+{% set pageDescription  = entry.kurzbeschreibungText | default('Informationsportal') %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/styles.css">
-    <title>Knappe 1a</title>
+
+    <title>{{ pageTitle }}</title>
+    <meta name="description" content="{{ pageDescription }}">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
@@ -22,7 +28,7 @@
             <div class="sm:col-span-2 sm:border-r-[0.1rem] sm:border-slate-800 sm:p-6 sm:h-screen sm:overflow-y-scroll">
 
                 {# md:sticky md:top-0 #}
-                <a href="{{home.url}}"><div class="m-2 flex justify-center items-center"><img src="{{logo.url}}" class="w-1/2 justify-center sm:w-full"></div></a>
+                <a href="{{siteUrl}}"><div class="m-2 flex justify-center items-center"><img src="{{logo.url}}" alt="{{siteName}}" class="w-1/2 justify-center sm:w-full"></div></a>
 
                 {% set pages = craft.entries.section('pages').all() %}
     
@@ -32,7 +38,7 @@
 
                 <a href="{{page.url}}">
                     <div class="border-b-[0.1rem] border-slate-800 py-2 sm:py-4">
-                        <img src="{{thumbnail.url}}" class="sm:w-4/5 mx-auto hidden sm:block">
+                        <img src="{{thumbnail.getUrl('thumbnailsPages')}}" class="sm:w-4/5 mx-auto hidden sm:block">
                         <h3 class="text-center sm:hidden lg:block">{{ page.title }}</h3>
                         <span class="text-center font-bold text-lg hidden sm:block lg:hidden">{{ page.title }}</span>
                     </div>
@@ -59,7 +65,7 @@
                 </div>
 
                 <footer>
-                    <div class="bg-stone-300 flex justify-center items-center">FOOTER</div>
+                    <div class="bg-stone-300 flex justify-center items-center p-2">{{ footer.ausfuehrlicherText }}</div>
                 </footer>
 
             </div>

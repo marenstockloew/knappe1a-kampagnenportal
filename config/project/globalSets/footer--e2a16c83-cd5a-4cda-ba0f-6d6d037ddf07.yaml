@@ -1,0 +1,24 @@
+fieldLayouts:
+  15279d3f-733d-40b3-8bcf-a9d6181b93f7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a4c59dd9-3bc5-4248-b29f-9dd200e920da
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: c626ba6a-f0a4-4acf-9a95-fe1931454b1f
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 1

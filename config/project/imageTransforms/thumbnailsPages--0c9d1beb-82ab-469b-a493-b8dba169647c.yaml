@@ -1,0 +1,9 @@
+format: null
+handle: thumbnailsPages
+height: 100
+interlace: none
+mode: crop
+name: 'Thumbnails Pages'
+position: center-center
+quality: null
+width: 270

@@ -1,5 +1,5 @@
 fieldLayouts:
-  e5c642cb-8504-4045-a7cf-b0f370ba5734:
+  668aa223-04f0-4e86-83d6-82293e001bcc:
     tabs:
       -
         elementCondition: null
@@ -12,7 +12,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 34eb7739-7597-44bc-b2ab-0447cbd27c4f
+            uid: 10155ba6-781f-48f0-92a2-333883fa84f9
             userCondition: null
             warning: null
             width: 100
@@ -38,12 +38,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 27a78151-c215-4888-ab96-60972c7805c0
+            uid: d347100b-65dd-48d6-97ea-25342df1371c
             userCondition: null
             warning: null
             width: 100
-        name: 'Darstellung auf Homepage'
-        uid: 81c00f61-37d7-40b3-9621-c53018fa8d51
+        name: 'Darstellung auf Hompage'
+        uid: f5d7d67c-14ca-4519-a87c-08715a1ed982
         userCondition: null
       -
         elementCondition: null
@@ -56,7 +56,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: eadbb9ef-6e48-49ae-b7a6-7342565242f8
+            uid: 79b189bd-f1cd-4d60-b32c-b3b888c6671a
             userCondition: null
             warning: null
             width: 100
@@ -68,17 +68,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0a9ded5e-016b-408a-82c7-ae8dfe4e7718
+            uid: ba7c8a67-dec9-4be8-9eab-dc29392baf2b
             userCondition: null
             warning: null
             width: 100
         name: 'Darstellung der Unterseite'
-        uid: b9545804-543c-435d-8890-df9e298b466a
+        uid: 30134c8b-d27f-41cf-9a56-f70ef20679a4
         userCondition: null
 handle: page
 hasTitleField: true
 name: Page
-section: 13fa6ae6-827e-48e9-8873-1be1e1ad0dbf # Pages
+section: c7d84c5a-8797-4c50-a856-17a313e86dd8 # Pages
 sortOrder: 2
 titleFormat: null
 titleTranslationKeyFormat: null

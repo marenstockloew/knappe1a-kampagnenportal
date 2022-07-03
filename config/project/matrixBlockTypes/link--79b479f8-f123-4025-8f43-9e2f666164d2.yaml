@@ -1,0 +1,73 @@
+field: 3dd27281-86ee-471e-bad1-8224c617f4e5 # Externe Links
+fieldLayouts:
+  37df2d75-5223-45b6-bae5-6e25b5052b74:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 908e0d83-49fd-479f-aae2-bc9fa8fe9ac7 # Linkname
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd1d5cf1-3507-42df-9ad5-afe37725a4a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5bf264d5-c1f1-46c1-a751-04d215b3165e # Ziel
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a1af39f-4bae-4c07-baf7-93ec4cda6ba5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 600b0842-aac4-405a-b9af-b5018d694719
+        userCondition: null
+fields:
+  5bf264d5-c1f1-46c1-a751-04d215b3165e: # Ziel
+    columnSuffix: nxvzwlis
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: ziel
+    instructions: 'Hier den Link zur externen Seite eintragen.'
+    name: Ziel
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  908e0d83-49fd-479f-aae2-bc9fa8fe9ac7: # Linkname
+    columnSuffix: xppkblao
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkname
+    instructions: null
+    name: Linkname
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: link
+name: Link
+sortOrder: 1
