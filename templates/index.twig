@@ -34,7 +34,7 @@
                     <div class="border-b-[0.1rem] border-slate-800 py-2 sm:py-4">
                         <img src="{{thumbnail.url}}" class="sm:w-4/5 mx-auto hidden sm:block">
                         <h3 class="text-center sm:hidden lg:block">{{ page.title }}</h3>
-                        <strong class="text-center hidden sm:block lg:hidden">{{ page.title }}</strong>
+                        <span class="text-center font-bold text-lg hidden sm:block lg:hidden">{{ page.title }}</span>
                     </div>
                 </a>
 
@@ -51,7 +51,7 @@
 
             <div class="sm:col-span-5 sm:h-screen sm:overflow-y-scroll"> 
 
-                <div class="sm:m-4">
+                <div class="sm:m-4 sm:min-h-screen">
 
                     {% block content %}
                     {% endblock %}

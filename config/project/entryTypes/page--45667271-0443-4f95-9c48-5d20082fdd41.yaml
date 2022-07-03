@@ -42,12 +42,42 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Inhalt
+        name: 'Darstellung auf Homepage'
         uid: 81c00f61-37d7-40b3-9621-c53018fa8d51
         userCondition: null
-handle: homepage
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 362fe411-bc28-4caf-9980-d3fc7fc955d0 # Page-Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eadbb9ef-6e48-49ae-b7a6-7342565242f8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a9ded5e-016b-408a-82c7-ae8dfe4e7718
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Darstellung der Unterseite'
+        uid: b9545804-543c-435d-8890-df9e298b466a
+        userCondition: null
+handle: page
 hasTitleField: true
-name: Homepage
+name: Page
 section: 13fa6ae6-827e-48e9-8873-1be1e1ad0dbf # Pages
 sortOrder: 2
 titleFormat: null

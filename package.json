@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss build -i templates/src/styles.css -o templates/public/styles.css --watch",
-    "build-page-css": "tailwindcss build -i templates/src/styles.css -o templates/pages/public/styles.css --watch"
+    "build-page-css": "tailwindcss build -i templates/src/styles.css -o templates/pages/public/styles.css --watch",
+    "build-news-css": "tailwindcss build -i templates/src/styles.css -o templates/news/public/styles.css --watch"
   },
   "author": "",
   "license": "ISC",

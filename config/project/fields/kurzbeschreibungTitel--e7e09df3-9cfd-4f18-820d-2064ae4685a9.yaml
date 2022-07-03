@@ -1,0 +1,19 @@
+columnSuffix: yxjrrlef
+contentColumnType: text
+fieldGroup: cbdc3555-7825-4900-b52d-36dc3dec2cfa # News
+handle: kurzbeschreibungTitel
+instructions: null
+name: 'Kurzbeschreibung: Titel'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

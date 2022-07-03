@@ -1,0 +1,28 @@
+columnSuffix: gljghggi
+contentColumnType: text
+fieldGroup: cbdc3555-7825-4900-b52d-36dc3dec2cfa # News
+handle: text
+instructions: 'Hier ist Platz für den gesamten Artikel.'
+name: Text
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes:
+    - 92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a # Uploads
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

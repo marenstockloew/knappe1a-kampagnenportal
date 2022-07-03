@@ -1,4 +1,4 @@
-dateModified: 1656580396
+dateModified: 1656661138
 email:
   fromEmail: m.stockloew@posteo.de
   fromName: knappe1a
@@ -14,7 +14,6 @@ fs:
 meta:
   __names__:
     1bdefab8-0a6f-43f1-81e9-ea647c9951f1: 'Infobox Tabelle' # Infobox Tabelle
-    2cda8555-0e69-471e-89a4-686b2612fc93: 'Vergangene Veranstaltung' # Vergangene Veranstaltung
     2e9b7b8a-13ba-44f1-86df-f19e414e2f7f: Kurzbeschreibung # Kurzbeschreibung
     3dcb9279-424c-44e9-a64e-99741b4bca88: Aktuelles # Aktuelles
     3e3b58ba-70ac-4e8a-a666-bfeb004477e3: Home # Home
@@ -22,24 +21,34 @@ meta:
     6b958387-7d64-4b74-b25e-024b7acdb8e2: Logo # Logo
     6bb66f74-adc8-4919-9f78-89a964482176: 'Ausführlicher Text' # Ausführlicher Text
     8bcb303a-e7ae-4b94-be2f-e7a8a31f1541: Home # Home
+    8d9019bf-6697-4bb2-acdd-1ca1dc2a5de4: 'Gesamter Artikel' # Gesamter Artikel
+    09e8e93e-5d4f-4eb8-a020-e747b0367676: Datum # Datum
     13fa6ae6-827e-48e9-8873-1be1e1ad0dbf: Pages # Pages
+    014e0b6a-e96f-449e-8438-91054d3a1509: 'Kurzbeschreibung: Text' # Kurzbeschreibung: Text
     36abde1f-5a22-485e-8435-a4fb6ac82354: knappe1a # knappe1a
+    37a52569-473c-4e9f-8dd1-aa813a85207a: Text # Text
     66a0921c-ce39-4564-a7a7-312ff283966b: 'Titel der Website' # Titel der Website
     92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a: Uploads # Uploads
     93cc2317-af18-44da-aa2f-b4e472f1e767: Newsfoto # Newsfoto
     240b70ba-02f3-484b-8455-003a1f5730ec: Common # Common
     360f35ce-147c-4f20-bc75-e17795ec57d0: Fotos # Fotos
+    362fe411-bc28-4caf-9980-d3fc7fc955d0: Page-Titel # Page-Titel
     394b40d9-3c2b-4b31-8e1e-6f6ef637b917: knappe1a # knappe1a
+    861d2b45-98ec-4cae-8d6b-72e35f8962eb: Standard # Standard
     868af8af-01e4-4cf2-a0ae-3bd6def87977: Datum # Datum
     1057c348-12f1-4a0d-b548-7f404b04b6e5: Pages # Pages
     3777a085-06d2-424c-9e6f-e2a2c471d061: Thumbnail # Thumbnail
     280065d5-8d61-4f36-a5f6-7c4e119b3dfb: Homepage # Homepage
-    45667271-0443-4f95-9c48-5d20082fdd41: Homepage # Homepage
+    45667271-0443-4f95-9c48-5d20082fdd41: Page # Page
     78036043-2fae-4f1d-a283-3309b27d1e5e: Newstitel # Newstitel
     95304307-4802-49bd-87db-1fe67d82846f: Kurzbeschreibung # Kurzbeschreibung
     acdd27ad-f040-43ed-be9c-cc3ca7449849: Newseinträge # Newseinträge
-    b6aa21ff-b764-4f40-b410-3b12ca90a222: 'Vergangene Veranstaltungen' # Vergangene Veranstaltungen
+    ade1bf78-6e23-4159-9873-fac198aed14e: 'Kurzbeschreibung: Foto' # Kurzbeschreibung: Foto
+    b85c5002-665d-43a4-86ff-0102a53330a4: News # News
+    c3a94b2c-4a80-4c5a-b665-cbcf60f3afea: 'Benennung Newsfeed' # Benennung Newsfeed
     c85719cd-5205-4bce-a16a-4ca8cb670c76: 'Header Infobox' # Header Infobox
+    cbdc3555-7825-4900-b52d-36dc3dec2cfa: News # News
+    e7e09df3-9cfd-4f18-820d-2064ae4685a9: 'Kurzbeschreibung: Titel' # Kurzbeschreibung: Titel
     e58b2cf5-e256-45dd-b463-10d525f9caee: 'Infobox Textfeld' # Infobox Textfeld
     f8119d30-b0ed-46a2-905d-cf20e1775e07: Newseintrag # Newseintrag
 plugins:

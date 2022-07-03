@@ -80,30 +80,18 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 3dcb9279-424c-44e9-a64e-99741b4bca88 # Aktuelles
+            fieldUid: c3a94b2c-4a80-4c5a-b665-cbcf60f3afea # Benennung Newsfeed
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2690c6d3-d1ff-46fb-9deb-5b611f9a2c60
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: acdd27ad-f040-43ed-be9c-cc3ca7449849 # Newseinträge
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b44b38ca-6884-48f0-b452-15de36f95c03
+            uid: 48c68113-a67e-4531-94ca-70fd0a5b8fa1
             userCondition: null
             warning: null
             width: 100
         name: Newsfeed
-        uid: 2c796d17-9256-48f0-b58d-67e61271df56
+        uid: 4d43b71e-058e-47ff-b253-86088443e3c0
         userCondition: null
 handle: home
 hasTitleField: false

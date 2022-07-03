@@ -3,8 +3,10 @@ fieldLayouts:
   84a15c50-2255-46cf-ba7a-c50e70226879:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 93cc2317-af18-44da-aa2f-b4e472f1e767 # Newsfoto
             instructions: null
             label: null
@@ -12,9 +14,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 4a4f71d0-b73d-4a15-bb14-c8032124e81f
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 868af8af-01e4-4cf2-a0ae-3bd6def87977 # Datum
             instructions: null
             label: null
@@ -22,9 +26,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 45956594-401d-43d6-bde8-dd6483617fd4
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 78036043-2fae-4f1d-a283-3309b27d1e5e # Newstitel
             instructions: null
             label: null
@@ -32,9 +38,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 7c300e1c-cadb-4918-bdec-b97523330fbe
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 95304307-4802-49bd-87db-1fe67d82846f # Kurzbeschreibung
             instructions: null
             label: null
@@ -42,11 +50,54 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: fe4bc6dd-b4cd-4fbc-8b13-6e05f3bff758
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8d9019bf-6697-4bb2-acdd-1ca1dc2a5de4 # Gesamter Artikel
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 57b78915-b5cd-4072-b64a-647a90f21259
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: 21baddab-deea-4924-a07f-8d8dfa580be4
+        userCondition: null
 fields:
+  8d9019bf-6697-4bb2-acdd-1ca1dc2a5de4: # Gesamter Artikel
+    columnSuffix: sjvwxdye
+    contentColumnType: text
+    fieldGroup: null
+    handle: gesamterArtikel
+    instructions: 'Hier bitte den gesamten Text für den ausführlichen Artikel einfügen.'
+    name: 'Gesamter Artikel'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes:
+        - 92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a # Uploads
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
   93cc2317-af18-44da-aa2f-b4e472f1e767: # Newsfoto
     columnSuffix: null
     contentColumnType: string
@@ -83,7 +134,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: Foto
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       source: null
