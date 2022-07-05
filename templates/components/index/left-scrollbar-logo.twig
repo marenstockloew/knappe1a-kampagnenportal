@@ -1,0 +1,5 @@
+{% set logo =  craft.entries.section('home').one().logo.one() %}
+
+<a href="{{siteUrl}}">
+	<div class="m-2 flex justify-center items-center"><img src="{{logo.url}}" alt="{{siteName}}" class="w-1/2 justify-center sm:w-full"></div>
+</a>

@@ -10,7 +10,7 @@ settings:
   availableVolumes: '*'
   columnType: text
   configSelectionMode: choose
-  defaultTransform: ''
+  defaultTransform: e45e29a3-3682-490a-b258-06659d62608e # Bild Artikel
   manualConfig: ''
   purifierConfig: null
   purifyHtml: true

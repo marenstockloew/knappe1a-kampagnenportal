@@ -3,76 +3,53 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/styles.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./public/styles.css">
 
-    <title>{{ pageTitle }}</title>
-    <meta name="description" content="{{ pageDescription }}">
+		<title>{{ pageTitle }}</title>
+		<meta name="description" content="{{ pageDescription }}">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
-</head>
-<body class="bg-neutral-50">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	</head>
 
-{% set home = craft.entries.section('home').one() %}
-{% set logo =  craft.entries.section('home').one().logo.one() %}
+	<body class="bg-neutral-50">
 
-    <div class="">
+		<div class="sm:grid sm:grid-cols-7">
+        
+            {# This div is the left scrollbar or the upper content in the mobile version #}
+			<div class="sm:col-span-2 sm:border-r-[0.1rem] sm:border-slate-800 sm:p-6 sm:h-screen sm:overflow-y-scroll">
 
-        <div class="sm:grid sm:grid-cols-7">
+				{# Include the Logo as a link to the main page #}
+                {% include "components/index/left-scrollbar-logo" %}
 
-            <div class="sm:col-span-2 sm:border-r-[0.1rem] sm:border-slate-800 sm:p-6 sm:h-screen sm:overflow-y-scroll">
+                {# Show title here (only in mobile version) #}
+                {% include "components/index/alternative-title" %}
 
-                {# md:sticky md:top-0 #}
-                <a href="{{siteUrl}}"><div class="m-2 flex justify-center items-center"><img src="{{logo.url}}" alt="{{siteName}}" class="w-1/2 justify-center sm:w-full"></div></a>
+                {# Include Pages #}
+                {% include "components/index/left-scrollbar-pages" %}
 
-                {% set pages = craft.entries.section('pages').all() %}
-    
-                {% for page in pages %}
+                {# Include Links #}
+                {% include "components/index/left-scrollbar-links" %}
 
-                {% set thumbnail = page.thumbnail.one() %}
+			</div>
 
-                <a href="{{page.url}}">
-                    <div class="border-b-[0.1rem] border-slate-800 py-2 sm:py-4">
-                        <img src="{{thumbnail.getUrl('thumbnailsPages')}}" class="sm:w-4/5 mx-auto hidden sm:block">
-                        <h3 class="text-center sm:hidden lg:block">{{ page.title }}</h3>
-                        <span class="text-center font-bold text-lg hidden sm:block lg:hidden">{{ page.title }}</span>
-                    </div>
-                </a>
+            {# This div is the right scrollbar or the lower content in the mobile version. It consists of the content of the page and the footer. #}
+			<div class="sm:col-span-5 sm:h-screen sm:overflow-y-scroll">
 
-                {% endfor %}
+				<div class="sm:m-4 sm:min-h-screen">
+                     {% block content %}{% endblock %}
+				</div>
 
-                {# <ul class="" >
-                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
-                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
-                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
-                    <li class="bg-stone-300 m-1 p-2 rounded-md flex-auto hover:scale-y-110 transition ease-out duration-100 flex justify-center items-top">PAGE</li>
-                </ul> #}
+				{% include "components/footer" %}
 
-            </div>
+			</div>
 
-            <div class="sm:col-span-5 sm:h-screen sm:overflow-y-scroll"> 
+		</div>
 
-                <div class="sm:m-4 sm:min-h-screen">
-
-                    {% block content %}
-                    {% endblock %}
-
-                </div>
-
-                <footer>
-                    <div class="bg-stone-300 flex justify-center items-center p-2">{{ footer.ausfuehrlicherText }}</div>
-                </footer>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</body>
+	</body>
 </html>

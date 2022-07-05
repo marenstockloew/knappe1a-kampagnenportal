@@ -72,6 +72,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 1bdefab8-0a6f-43f1-81e9-ea647c9951f1 # Infobox Tabelle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 47bc7ce2-2bfe-4fe5-967e-182c42e220ab
+            userCondition: null
+            warning: null
+            width: 100
         name: Infobox
         uid: 884c7f02-ccfd-4c63-b6cb-4002833838bc
         userCondition: null

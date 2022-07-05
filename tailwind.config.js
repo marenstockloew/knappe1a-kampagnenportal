@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [ "./templates/**/*.{html,twig,js}"],
+  content: ["./templates/**/*.{html,twig,js}"],
   theme: {
     extend: {
       colors: {
-        'knappe-rot': '#BF2821',
+        "knappe-rot": "#BF2821",
+      },
+      fontWeight: {
+        bold: 600,
       },
     },
   },
   plugins: [],
-}
+};

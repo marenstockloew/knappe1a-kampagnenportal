@@ -1,0 +1,15 @@
+{% set pages = craft.entries.section('pages').all() %}
+
+{% for page in pages %}
+
+	{% set thumbnail = page.thumbnail.one() %}
+
+	<a href="{{page.url}}">
+		<div class="border-b-[0.1rem] border-slate-800 py-2 sm:py-4">
+			<img src="{{thumbnail.getUrl('thumbnailsPages')}}" class="sm:w-4/5 mx-auto hidden sm:block">
+			<h3 class="text-center sm:hidden lg:block">{{ page.title }}</h3>
+			<span class="text-center font-bold text-lg hidden sm:block lg:hidden">{{ page.title }}</span>
+		</div>
+	</a>
+
+{% endfor %}

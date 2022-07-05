@@ -1,0 +1,15 @@
+<div class="bg-stone-300 rounded-sm p-7 my-3 mx-2 sm:mx-0"> {# bg-opacity-20 #}
+
+    <h3>{{entry.headerInfobox}}</h3>
+
+    {% if entry.infoboxTabelle | length %}
+        <div class="grid sm:grid-cols-3 gap-2 p-2">
+        {% for row in entry.infoboxTabelle %}
+            <div>{{ row.info1 }}</div> 
+            <div>{{ row.info2 }}</div> 
+            <div>{{ row.info3 }}</div> 
+        {% endfor %}
+        </div>
+    {% endif %}
+
+</div>

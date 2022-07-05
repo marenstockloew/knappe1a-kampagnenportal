@@ -1,0 +1,33 @@
+{% set news = craft.entries.section('news').all() %}
+
+<div class="p-2">
+
+    {# Header of the Newsfeed #}
+    <div class="my-3">
+        <h2>{{ entry.benennungNewsfeed }}</h2>
+    </div>
+
+    {% for eintrag in news %}
+
+        {% set photo = eintrag.kurzbeschreibungFoto.one() %}
+
+        <a href="{{eintrag.url}}">
+        <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6">
+
+            <div class="w-full md:col-span-3 md:relative my-2 md:my-5">
+                <img src="{{photo.getUrl('newsbildHomepage')}}" alt="Bild zum Thema {{eintrag.kurzbeschreibungTitel}}" class="object-cover h-full w-full">
+            </div>
+
+            <div class="md:col-span-5 my-2 md:my-5">
+                {# <p>Platzhalter Datum</p> #}
+                {{eintrag.datum|date('d.m.Y')}}
+                <h3>{{eintrag.kurzbeschreibungTitel}}</h3>
+                <p>{{eintrag.kurzbeschreibungText}}</p>
+            </div>
+
+        </div>
+        </a>
+
+    {% endfor %}
+
+</div>

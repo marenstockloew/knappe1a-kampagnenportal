@@ -1,0 +1,17 @@
+{% set links = craft.entries.section('externalLinks').all() %}
+
+{% for linkcategory in links %}
+
+    <div class="text-center border-b-[0.1rem] border-slate-800 py-2 sm:py-4">
+
+	    <h3 class="sm:hidden lg:block m-2">{{ linkcategory.title }}</h3>
+	    <span class="font-bold text-lg hidden sm:block lg:hidden m-2">{{ linkcategory.title }}</span>
+
+	    {% for link in linkcategory.externeLinks.all() %}
+		    <div class="m-2 sm:mx-0 flex flex-col">
+			    <a href="{{link.ziel}}" class="btn bg-red-200 hover:bg-red-300 p-2 sm:text-xs lg:text-base">{{link.linkname}}</a>
+		    </div>
+	    {% endfor %}
+
+    </div>
+{% endfor %}

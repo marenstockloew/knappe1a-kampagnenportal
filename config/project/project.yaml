@@ -1,4 +1,4 @@
-dateModified: 1656849260
+dateModified: 1657040525
 email:
   fromEmail: m.stockloew@posteo.de
   fromName: knappe1a
@@ -43,6 +43,7 @@ meta:
     1057c348-12f1-4a0d-b548-7f404b04b6e5: Pages # Pages
     3777a085-06d2-424c-9e6f-e2a2c471d061: Thumbnail # Thumbnail
     280065d5-8d61-4f36-a5f6-7c4e119b3dfb: Homepage # Homepage
+    23279851-89cc-48c5-8a67-aa8bf053f893: 'Externe Links' # Externe Links
     78036043-2fae-4f1d-a283-3309b27d1e5e: Newstitel # Newstitel
     95304307-4802-49bd-87db-1fe67d82846f: Kurzbeschreibung # Kurzbeschreibung
     acdd27ad-f040-43ed-be9c-cc3ca7449849: Newseinträge # Newseinträge
@@ -53,9 +54,12 @@ meta:
     c85719cd-5205-4bce-a16a-4ca8cb670c76: 'Header Infobox' # Header Infobox
     cbdc3555-7825-4900-b52d-36dc3dec2cfa: News # News
     d61c645d-1715-494e-beee-f667748a84d9: 'Newsbild Homepage' # Newsbild Homepage
+    d8722f09-e661-4c65-a1b0-345682ccb731: Standard # Standard
     e2a16c83-cd5a-4cda-ba0f-6d6d037ddf07: Footer # Footer
     e7e09df3-9cfd-4f18-820d-2064ae4685a9: 'Kurzbeschreibung: Titel' # Kurzbeschreibung: Titel
+    e45e29a3-3682-490a-b258-06659d62608e: 'Bild Artikel' # Bild Artikel
     e58b2cf5-e256-45dd-b463-10d525f9caee: 'Infobox Textfeld' # Infobox Textfeld
+    f09fdb2a-cbda-4d8b-a287-ecaf0d486d4a: 'External Links' # External Links
     f9b291b5-0bf3-4748-b492-843bd4975972: Page # Page
     f8119d30-b0ed-46a2-905d-cf20e1775e07: Newseintrag # Newseintrag
 plugins:
