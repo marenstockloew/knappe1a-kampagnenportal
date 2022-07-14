@@ -1,0 +1,48 @@
+fieldLayouts:
+  e3441610-465e-4117-9161-054d0680a385:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e261e30b-0acf-433c-b2c1-7ee96b4c98e2 # Aktiviert
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3cb625b-1f5f-4d9a-8d94-125477142bfe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f1e2a9cf-f5eb-40d4-81f8-90cf1653a033 # Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9cecde13-4a01-4df0-a341-e350b246396d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 508d09ee-ce8f-4b5b-8492-e73c99311ffb # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48e5c07f-1a91-4956-8ee3-832f240865d8
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Teaser B'
+        uid: 3883f71b-8ce4-46d7-8f9f-09e3ca7b0108
+        userCondition: null
+handle: teaserB
+name: 'Teaser B'
+sortOrder: 4

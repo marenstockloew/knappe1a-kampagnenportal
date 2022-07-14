@@ -1,9 +1,9 @@
-columnSuffix: ugtufgyh
+columnSuffix: xmljfqtn
 contentColumnType: text
-fieldGroup: 7a06f3a4-5677-4a69-b024-8e403a815a9a # Header
-handle: titelDerWebsite
-instructions: 'Überschrift, die ganz oben auf der Website angezeigt wird.'
-name: 'Titel der Website'
+fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
+handle: titelGlobals
+instructions: null
+name: Titel
 searchable: false
 settings:
   byteLimit: null

@@ -1,0 +1,14 @@
+columnSuffix: kttsadtm
+contentColumnType: boolean
+fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
+handle: activated
+instructions: null
+name: Aktiviert
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

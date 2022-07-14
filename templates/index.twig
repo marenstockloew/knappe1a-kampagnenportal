@@ -17,39 +17,14 @@
 		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 	</head>
 
-	<body class="bg-neutral-50">
+	<body class="bg-red-500">
 
-		<div class="sm:grid sm:grid-cols-7">
-        
-            {# This div is the left scrollbar or the upper content in the mobile version #}
-			<div class="sm:col-span-2 sm:border-r-[0.1rem] sm:border-slate-800 sm:p-6 sm:h-screen sm:overflow-y-scroll">
+		{# Include the header with the logo and heading #}
+		{% include "components/globals/header" %}
 
-				{# Include the Logo as a link to the main page #}
-                {% include "components/index/left-scrollbar-logo" %}
+        {% block content %}{% endblock %}
 
-                {# Show title here (only in mobile version) #}
-                {% include "components/index/alternative-title" %}
-
-                {# Include Pages #}
-                {% include "components/index/left-scrollbar-pages" %}
-
-                {# Include Links #}
-                {% include "components/index/left-scrollbar-links" %}
-
-			</div>
-
-            {# This div is the right scrollbar or the lower content in the mobile version. It consists of the content of the page and the footer. #}
-			<div class="sm:col-span-5 sm:h-screen sm:overflow-y-scroll">
-
-				<div class="sm:m-4 sm:min-h-screen">
-                     {% block content %}{% endblock %}
-				</div>
-
-				{% include "components/footer" %}
-
-			</div>
-
-		</div>
+		{% include "components/globals/footer" %}
 
 	</body>
 </html>

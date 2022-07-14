@@ -1,9 +1,9 @@
 format: null
-handle: thumbnailsPages
+handle: thumbnailTeaser
 height: 300
 interlace: none
 mode: crop
-name: 'Thumbnails Pages'
+name: 'thumbnail Teaser'
 position: center-center
 quality: null
 width: 800

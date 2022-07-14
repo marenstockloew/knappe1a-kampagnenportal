@@ -1,0 +1,36 @@
+fieldLayouts:
+  67552dab-1c71-43ac-a1a1-f5a0b26118a6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6b958387-7d64-4b74-b25e-024b7acdb8e2 # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25cb2e87-da42-427f-9d53-85633109e6fb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 66a0921c-ce39-4564-a7a7-312ff283966b # Titel der Website
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e437a8c5-8185-4a47-a5fd-b5a67f4edf0d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 8e1a1c71-d52f-45b9-aa2e-1909cc457e97
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 2

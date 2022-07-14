@@ -1,0 +1,48 @@
+fieldLayouts:
+  791ffb7a-f21d-4885-b779-1f95443b4290:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e261e30b-0acf-433c-b2c1-7ee96b4c98e2 # Aktiviert
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b7e06527-565d-4088-931a-0bda9d5ea7a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 508d09ee-ce8f-4b5b-8492-e73c99311ffb # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0b133ca7-eb01-4c00-9b94-2c2c5f02b336
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5eb20e55-c15e-4bf5-a473-02ee298b6cfb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Faktenbox
+        uid: 34952733-a79a-423e-b223-beb465221482
+        userCondition: null
+handle: faktenboxB
+name: 'Faktenbox B'
+sortOrder: 6

@@ -1,0 +1,42 @@
+{# If there is only one teaser, there should be only one grid column in order to center it #}
+{% if teaserA.activated and teaserB.activated %}
+    {% set teaserGrid = "sm:grid-cols-2" %}
+{% else %}
+    {% set teaserGrid = "sm:grid-cols-1" %}
+{% endif %}
+
+{# Set names for thumbnail images #}
+{% set imageA = teaserA.linkGlobals.one().thumbnail.one() %}
+{% set imageB = teaserB.linkGlobals.one().thumbnail.one() %}
+
+<div class="grid grid-cols-1 {{teaserGrid}} gap-4">
+
+    {% if teaserA.activated %}
+        <a href="{{teaserA.linkGlobals.one().url}}">
+
+            {% do imageA.setTransform('thumbnailTeaser') %}
+            <div class="bg-gradient-to-t from-black relative rounded-sm" width="{{imageA.width}}" height="{{imageA.height}}">
+
+                <img src="{{imageA.url}}" class="w-full h-full mx-auto mix-blend-overlay">
+                <h3 class="text-white absolute p-1 bottom-0 inset-x-0">{{teaserA.titelGlobals}}</h3>
+
+            </div>
+
+        </a>
+    {% endif %}
+
+    {% if teaserB.activated %}
+        <a href="{{teaserB.linkGlobals.one().url}}">
+
+            {% do imageB.setTransform('thumbnailTeaser') %}
+            <div class="bg-gradient-to-t from-black relative rounded-sm" width="{{imageB.width}}" height="{{imageB.height}}">
+
+                <img src="{{imageB.url}}" class="w-full h-full mx-auto mix-blend-overlay">
+                <h3 class="text-white absolute p-1 bottom-0 inset-x-0">{{teaserB.titelGlobals}}</h3>
+
+            </div>
+
+        </a>
+    {% endif %}
+
+</div>
