@@ -18,12 +18,18 @@
     }
     h3 {
         @apply text-2xl md:text-3xl;
-        @apply my-1 md:my-2 ;
+        @apply my-1 md:my-2;
+    }
+    iframe {
+        @apply mx-auto w-4/5 my-5;
+    }
+  }
+
+  @layer components {
+    .link {
+        @apply underline text-xl text-neutral-600;
     }
     .btn {
-        @apply rounded-md;
-        @apply font-bold;
-        @apply cursor-pointer;
-        @apply tracking-wider;
+        @apply rounded-md font-bold cursor-pointer bg-neutral-300 p-2;
     }
   }

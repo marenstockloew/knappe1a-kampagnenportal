@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 66c28356-677b-45f5-a14a-d904405164a6 # text
+            fieldUid: 66c28356-677b-45f5-a14a-d904405164a6 # Text oder HTML Code
             instructions: null
             label: null
             required: false
@@ -21,13 +21,13 @@ fieldLayouts:
         uid: 0558516c-8261-48e6-bc52-69f820ff6411
         userCondition: null
 fields:
-  66c28356-677b-45f5-a14a-d904405164a6: # text
+  66c28356-677b-45f5-a14a-d904405164a6: # Text oder HTML Code
     columnSuffix: gdbitzcv
     contentColumnType: text
     fieldGroup: null
     handle: text
     instructions: null
-    name: text
+    name: 'Text oder HTML Code'
     searchable: false
     settings:
       availableTransforms: '*'
@@ -42,7 +42,7 @@ fields:
       removeEmptyTags: false
       removeInlineStyles: false
       removeNbsp: false
-      showHtmlButtonForNonAdmins: false
+      showHtmlButtonForNonAdmins: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       uiMode: enlarged
@@ -50,5 +50,5 @@ fields:
     translationMethod: none
     type: craft\redactor\Field
 handle: text
-name: Text
+name: Text/HTML
 sortOrder: 1

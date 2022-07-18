@@ -1,0 +1,93 @@
+field: 5727e741-e5ae-46f1-8446-12b507bac994 # Artikel
+fieldLayouts:
+  869216d1-e848-48f7-8640-72bbf10a9b3b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7ad1f217-730b-4397-9d8e-668d8648367e # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 28539427-6ce4-4f53-abb1-9d10cdae9651
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1a1c0ebf-45d2-4f42-ad6e-18bbd11a1770 # Link zu interner Seite (Button)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dea369dc-0d25-4547-80db-db00840cbd7c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ad9fa679-61ba-4aa2-a33e-63e9bceda6b3
+        userCondition: null
+fields:
+  1a1c0ebf-45d2-4f42-ad6e-18bbd11a1770: # Link zu interner Seite (Button)
+    columnSuffix: ipilwset
+    contentColumnType: string
+    fieldGroup: null
+    handle: internerLinkURL
+    instructions: Link-Adresse
+    name: 'Link zu interner Seite (Button)'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:12e2b3a2-38d3-4aae-b6dd-92394501f149' # Newsfeed
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  7ad1f217-730b-4397-9d8e-668d8648367e: # Text
+    columnSuffix: ghhvacnf
+    contentColumnType: text
+    fieldGroup: null
+    handle: internerLinkText
+    instructions: 'Auf dem Button angezeigter Text'
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: internerLink
+name: 'Interner Link'
+sortOrder: 4

@@ -1,0 +1,73 @@
+field: 5727e741-e5ae-46f1-8446-12b507bac994 # Artikel
+fieldLayouts:
+  c9c10511-b7e2-456b-8c6c-7420774064c7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 28b1f19e-d3c9-4f70-a78a-7b24200124e8 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cfc40719-5201-475f-be67-4461a203e032
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ff869dee-bbf4-400b-ac76-730163acc5a5 # URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e71c1f34-c482-42c4-a37e-5a8eeac22830
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dd64d5fe-8bd6-4602-855a-c9fc228c53ad
+        userCondition: null
+fields:
+  28b1f19e-d3c9-4f70-a78a-7b24200124e8: # Text
+    columnSuffix: ltockdbu
+    contentColumnType: text
+    fieldGroup: null
+    handle: externerLinkText
+    instructions: 'Auf dem Button angezeigter Text'
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ff869dee-bbf4-400b-ac76-730163acc5a5: # URL
+    columnSuffix: hjexhdwu
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: externerLinkURL
+    instructions: Link-Adresse
+    name: URL
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: externerLink
+name: 'Externer Link'
+sortOrder: 3

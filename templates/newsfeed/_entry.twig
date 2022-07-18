@@ -2,27 +2,61 @@
 
 {% block content %}
 
-    <div class="px-[5vw] sm:px-[8vw] py-[2vh]">
+	<div class="">
 
-        <h1 class="">{{entry.title}}</h1>
-        
-        {% for block in entry.artikelNewsfeed.all() %}
-            {% if block.type == "heading" %}
-                <h3>{{ block.heading }}</h3>
-            {% elseif block.type == "text" %}
-                {{ block.text|markdown }}
-            {% elseif block.type == "bild" %}
-                {% set image = block.bild.one() %}
-                {% if image %}
-                    <img src="{{ image.getUrl('bildArtikel') }}" 
-                        width="{{ image.getWidth('bildArtikel') }}" 
-                        height="{{ image.getHeight('bildArtikel') }}" 
-                        alt="{{ image.title }}"
-                    >
-                {% endif %}
-            {% endif %}
-        {% endfor %}
+		<div class="w-[85vw] sm:w-[75vw] md:w-[70vw] py-[2vh] mx-auto">
 
-    </div>
+            <div class="mx-2">
+			    <h1>{{entry.title}}</h1>
+            </div>
+
+            {# Matrix field with several options #}
+            <div class="md:text-xl flow-root">
+
+			    {% for block in entry.artikelNewsfeed.all() %}
+
+                    {# Heading #}
+				    {% if block.type == "heading" %}
+					    <h3>{{ block.heading }}</h3>
+
+                    {# Text #}
+				    {% elseif block.type == "text" %}
+                        <div>
+					        {{ block.text|markdown }}
+                        </div>
+
+                    {# Image #}
+				    {% elseif block.type == "bild" %}
+					    {% set image = block.bild.one() %}
+					    {% if image %}
+                            <div class="my-5">
+						        <img class="mx-auto w-3/4 h-auto" src="{{ image.getUrl('bildArtikel') }}" width="{{ image.getWidth('bildArtikel') }}" height="{{ image.getHeight('bildArtikel') }}" alt="{{ image.title }}">
+                            </div>
+					    {% endif %}
+                    
+                    {# Button Externer Link #}
+				    {% elseif block.type == "externerLink" %}
+                        <div class=" my-5 mx-auto">
+                            <a class="btn" href="{{block.externerLinkURL}}">{{block.externerLinkText}}</a>
+                        </div>
+
+                    {# Button Interner Link #}
+				    {% elseif block.type == "internerLink" %}
+                        <div class=" my-5 mx-auto">
+                            <a class="btn" href="{{block.internerLinkURL.one().url}}">{{block.internerLinkText}}</a>
+                        </div>
+
+				    {% endif %}
+			    {% endfor %}
+
+            </div>
+
+			<div class="my-10">
+				<a class="link" href="{{siteUrl}}">Zurück zur Startseite</a>
+			</div>
+
+		</div>
+
+	</div>
 
 {% endblock %}
