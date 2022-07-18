@@ -3,7 +3,7 @@ contentColumnType: boolean
 fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
 handle: activated
 instructions: null
-name: Aktiviert
+name: 'Soll dieses Element angezeigt werden?'
 searchable: false
 settings:
   default: false

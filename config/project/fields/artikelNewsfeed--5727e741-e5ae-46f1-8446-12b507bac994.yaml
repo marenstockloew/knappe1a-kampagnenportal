@@ -1,12 +1,12 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: cbdc3555-7825-4900-b52d-36dc3dec2cfa # News
-handle: newseintraege
+fieldGroup: 7c955644-e560-4ceb-a37c-d63a20fb38a8 # Newsfeed
+handle: artikelNewsfeed
 instructions: null
-name: Newseinträge
+name: Artikel
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_newseintraege}}'
+  contentTable: '{{%matrixcontent_artikelnewsfeed}}'
   maxBlocks: null
   minBlocks: null
   propagationKeyFormat: null

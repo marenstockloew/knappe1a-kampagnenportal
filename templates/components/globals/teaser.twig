@@ -6,8 +6,8 @@
 {% endif %}
 
 {# Set names for thumbnail images #}
-{% set imageA = teaserA.linkGlobals.one().thumbnail.one() %}
-{% set imageB = teaserB.linkGlobals.one().thumbnail.one() %}
+{% set imageA = teaserA.linkGlobals.one().thumbnailNewsfeed.one() %}
+{% set imageB = teaserB.linkGlobals.one().thumbnailNewsfeed.one() %}
 
 <div class="grid grid-cols-1 {{teaserGrid}} gap-4">
 
@@ -15,11 +15,11 @@
         <a href="{{teaserA.linkGlobals.one().url}}">
 
             {% do imageA.setTransform('thumbnailTeaser') %}
-            <div class="bg-gradient-to-t from-black relative rounded-sm" width="{{imageA.width}}" height="{{imageA.height}}">
+            <div class="relative rounded-sm bg-gradient-to-t from-black bottom-0 inset-x-0 z-10" width="{{imageA.width}}" height="{{imageA.height}}">
 
-                <img src="{{imageA.url}}" class="w-full h-full mx-auto mix-blend-overlay">
+                <img src="{{imageA.url}}" class="w-full h-full mx-auto mix-blend-overlay shadow-sm hover:shadow-xl">
                 <h3 class="text-white absolute p-1 bottom-0 inset-x-0">{{teaserA.titelGlobals}}</h3>
-
+                
             </div>
 
         </a>
@@ -29,11 +29,11 @@
         <a href="{{teaserB.linkGlobals.one().url}}">
 
             {% do imageB.setTransform('thumbnailTeaser') %}
-            <div class="bg-gradient-to-t from-black relative rounded-sm" width="{{imageB.width}}" height="{{imageB.height}}">
+            <div class="relative rounded-sm bg-gradient-to-t from-black bottom-0 inset-x-0 z-10" width="{{imageB.width}}" height="{{imageB.height}}">
 
-                <img src="{{imageB.url}}" class="w-full h-full mx-auto mix-blend-overlay">
+                <img src="{{imageB.url}}" class="w-full h-full mx-auto mix-blend-overlay shadow-sm hover:shadow-xl">
                 <h3 class="text-white absolute p-1 bottom-0 inset-x-0">{{teaserB.titelGlobals}}</h3>
-
+                
             </div>
 
         </a>

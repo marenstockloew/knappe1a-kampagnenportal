@@ -1,0 +1,32 @@
+{% set news = craft.entries.section('newsfeed').all() %}
+
+{% if newsfeedTitel.activated %}
+
+    <div>
+        <h1 class="flex justify-center">{{newsfeedTitel.titelNewsfeed}}</h1>
+    </div>
+
+{% endif %}
+
+{% for eintrag in news %}
+
+    {% set thumbnail = eintrag.thumbnailNewsfeed.one() %}
+
+    <a href="{{eintrag.url}}">
+        <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6">
+
+            <div class="w-full md:col-span-3 md:relative my-2 md:my-5">
+                <img src="{{thumbnail.getUrl('newsbildHomepage')}}" alt="Bild zum Thema {{eintrag.title}}" class="object-cover h-full w-full">
+            </div>
+
+            <div class="md:col-span-5 my-2 md:my-5">
+                {# {{eintrag.datum|date('d.m.Y')}} #}
+                {{ eintrag.postDate | date("d.m.Y") }}
+                <h2 class="hover:underline">{{eintrag.title}}</h2>
+                <p>{{eintrag.teaserNewsfeed}}</p>
+            </div>
+
+        </div>
+    </a>
+
+{% endfor %}

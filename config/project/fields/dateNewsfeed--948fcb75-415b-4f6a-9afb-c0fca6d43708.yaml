@@ -1,16 +1,16 @@
-columnSuffix: bfctuxds
+columnSuffix: xpmcgicd
 contentColumnType: datetime
-fieldGroup: cbdc3555-7825-4900-b52d-36dc3dec2cfa # News
-handle: datum
+fieldGroup: 7c955644-e560-4ceb-a37c-d63a20fb38a8 # Newsfeed
+handle: dateNewsfeed
 instructions: null
 name: Datum
 searchable: false
 settings:
   max: null
   min: null
-  minuteIncrement: 30
+  minuteIncrement: 5
   showDate: true
-  showTime: false
+  showTime: true
   showTimeZone: false
 translationKeyFormat: null
 translationMethod: none

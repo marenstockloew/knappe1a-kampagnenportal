@@ -1,4 +1,4 @@
-dateModified: 1657747207
+dateModified: 1657829923
 email:
   fromEmail: m.stockloew@posteo.de
   fromName: knappe1a
@@ -14,66 +14,60 @@ fs:
 meta:
   __names__:
     0c9d1beb-82ab-469b-a493-b8dba169647c: 'Thumbnails Pages' # Thumbnails Pages
-    1bdefab8-0a6f-43f1-81e9-ea647c9951f1: 'Infobox Tabelle' # Infobox Tabelle
-    2e9b7b8a-13ba-44f1-86df-f19e414e2f7f: Kurzbeschreibung # Kurzbeschreibung
     3dcb9279-424c-44e9-a64e-99741b4bca88: Aktuelles # Aktuelles
-    3dd27281-86ee-471e-bad1-8224c617f4e5: 'Externe Links' # Externe Links
     3e3b58ba-70ac-4e8a-a666-bfeb004477e3: Home # Home
-    5a041192-e936-4246-9c7b-461a068763f7: Titelbild # Titelbild
+    3e8cb3ca-dab5-441d-9dc5-a1d9a2fa4ca5: Thumbnail # Thumbnail
     5bf264d5-c1f1-46c1-a751-04d215b3165e: Ziel # Ziel
     6b958387-7d64-4b74-b25e-024b7acdb8e2: Logo # Logo
     6bb66f74-adc8-4919-9f78-89a964482176: 'Ausführlicher Text' # Ausführlicher Text
     6c20b3d7-83a7-439c-8dd5-0ccf5f2676b0: 'Faktenbox A' # Faktenbox A
     7a06f3a4-5677-4a69-b024-8e403a815a9a: Header # Header
+    7c955644-e560-4ceb-a37c-d63a20fb38a8: Newsfeed # Newsfeed
+    7f43ceeb-cd70-4a3f-a4d2-ef56820ae282: Teaser # Teaser
     8bcb303a-e7ae-4b94-be2f-e7a8a31f1541: Home # Home
     8d9019bf-6697-4bb2-acdd-1ca1dc2a5de4: 'Gesamter Artikel' # Gesamter Artikel
-    09e8e93e-5d4f-4eb8-a020-e747b0367676: Datum # Datum
-    014e0b6a-e96f-449e-8438-91054d3a1509: 'Kurzbeschreibung: Text' # Kurzbeschreibung: Text
+    12e2b3a2-38d3-4aae-b6dd-92394501f149: Newsfeed # Newsfeed
     36abde1f-5a22-485e-8435-a4fb6ac82354: knappe1a # knappe1a
-    37a52569-473c-4e9f-8dd1-aa813a85207a: Text # Text
+    46e4a549-c452-4c86-a78f-65d94063337f: 'Hintergrundfarbe Element' # Hintergrundfarbe Element
+    051b3a15-6d7d-403e-a94d-e679ba2fcd5d: Text # Text
     59e772b9-cba7-4595-bc1b-d793dd49429a: Globals # Globals
     66a0921c-ce39-4564-a7a7-312ff283966b: 'Titel der Website' # Titel der Website
-    79b479f8-f123-4025-8f43-9e2f666164d2: Link # Link
+    66c28356-677b-45f5-a14a-d904405164a6: text # text
     92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a: Uploads # Uploads
     93cc2317-af18-44da-aa2f-b4e472f1e767: Newsfoto # Newsfoto
+    131e509c-0eec-41c9-9506-d7f5886dac65: Hintergrundfarbe # Hintergrundfarbe
     240b70ba-02f3-484b-8455-003a1f5730ec: Common # Common
-    360f35ce-147c-4f20-bc75-e17795ec57d0: Fotos # Fotos
-    362fe411-bc28-4caf-9980-d3fc7fc955d0: Page-Titel # Page-Titel
+    252f9429-fbb4-4932-99a0-5c354850f505: Bild # Bild
     378ff744-347e-4e1a-b92e-b484371ae7eb: Thumbnail # Thumbnail
     394b40d9-3c2b-4b31-8e1e-6f6ef637b917: knappe1a # knappe1a
     418a517e-fc4e-4ab1-becc-90efa3be4c3d: 'Teaser A' # Teaser A
     508d09ee-ce8f-4b5b-8492-e73c99311ffb: Titel # Titel
-    861d2b45-98ec-4cae-8d6b-72e35f8962eb: Standard # Standard
     868af8af-01e4-4cf2-a0ae-3bd6def87977: Datum # Datum
     908e0d83-49fd-479f-aae2-bc9fa8fe9ac7: Linkname # Linkname
-    1057c348-12f1-4a0d-b548-7f404b04b6e5: Pages # Pages
-    3777a085-06d2-424c-9e6f-e2a2c471d061: Thumbnail # Thumbnail
+    948fcb75-415b-4f6a-9afb-c0fca6d43708: Datum # Datum
+    5727e741-e5ae-46f1-8446-12b507bac994: Artikel # Artikel
+    7626d633-01af-4f4c-9e3c-ca5f6b85ef02: Allgemein # Allgemein
+    09202d0c-9e02-49fe-b977-89b51bb36c30: Alert # Alert
     280065d5-8d61-4f36-a5f6-7c4e119b3dfb: Homepage # Homepage
-    23279851-89cc-48c5-8a67-aa8bf053f893: 'Externe Links' # Externe Links
+    4963083f-af8e-4ec4-b198-cd437110bdd0: Bild # Bild
     78036043-2fae-4f1d-a283-3309b27d1e5e: Newstitel # Newstitel
     95304307-4802-49bd-87db-1fe67d82846f: Kurzbeschreibung # Kurzbeschreibung
-    ac47e454-68a3-4a2a-8029-7ade4e1c7822: 'Faktenbox B'
-    acdd27ad-f040-43ed-be9c-cc3ca7449849: Newseinträge # Newseinträge
-    ade1bf78-6e23-4159-9873-fac198aed14e: 'Kurzbeschreibung: Foto' # Kurzbeschreibung: Foto
-    b85c5002-665d-43a4-86ff-0102a53330a4: News # News
+    a8b1748c-8836-4480-9204-cf3b8bc8435c: 'Newsfeed Titel' # Newsfeed Titel
+    aa948a80-9a83-4149-8d3d-25b247451e1d: Bild # Bild
+    ac47e454-68a3-4a2a-8029-7ade4e1c7822: 'Faktenbox B' # Faktenbox B
+    b93ffd04-3321-4db7-8daa-76bff95506e1: 'Titel Newsfeed' # Titel Newsfeed
     bc498902-7ebe-4f96-bbb1-991c61bacf65: Header # Header
     c0f5928e-037f-445b-abb6-88470f1b5fd0: 'Teaser B' # Teaser B
     c3a94b2c-4a80-4c5a-b665-cbcf60f3afea: 'Benennung Newsfeed' # Benennung Newsfeed
-    c7d84c5a-8797-4c50-a856-17a313e86dd8: Pages # Pages
-    c85719cd-5205-4bce-a16a-4ca8cb670c76: 'Header Infobox' # Header Infobox
-    cbdc3555-7825-4900-b52d-36dc3dec2cfa: News # News
+    d089b3f4-2084-4765-8055-d88c07f82c48: 'Überschrift Aktiv' # Überschrift Aktiv
     d61c645d-1715-494e-beee-f667748a84d9: 'Newsbild Homepage' # Newsbild Homepage
-    d8722f09-e661-4c65-a1b0-345682ccb731: Standard # Standard
+    dd1e058c-bcd5-4b67-9a2a-eb4230b0c016: Standard # Standard
     dfde7b55-b2f1-4acc-b72d-1c2060cec87a: 'thumbnail Teaser' # thumbnail Teaser
+    e1daa740-8156-4c65-9fe9-92dd2ea38c6f: Text # Text
     e2a16c83-cd5a-4cda-ba0f-6d6d037ddf07: Footer # Footer
-    e7e09df3-9cfd-4f18-820d-2064ae4685a9: 'Kurzbeschreibung: Titel' # Kurzbeschreibung: Titel
     e45e29a3-3682-490a-b258-06659d62608e: 'Bild Artikel' # Bild Artikel
-    e58b2cf5-e256-45dd-b463-10d525f9caee: 'Infobox Textfeld' # Infobox Textfeld
-    e261e30b-0acf-433c-b2c1-7ee96b4c98e2: Aktiviert # Aktiviert
-    f09fdb2a-cbda-4d8b-a287-ecaf0d486d4a: 'External Links' # External Links
+    e261e30b-0acf-433c-b2c1-7ee96b4c98e2: 'Soll dieses Element angezeigt werden?' # Soll dieses Element angezeigt werden?
     f1e2a9cf-f5eb-40d4-81f8-90cf1653a033: Link # Link
-    f9b291b5-0bf3-4748-b492-843bd4975972: Page # Page
-    f8119d30-b0ed-46a2-905d-cf20e1775e07: Newseintrag # Newseintrag
 plugins:
   redactor:
     edition: standard

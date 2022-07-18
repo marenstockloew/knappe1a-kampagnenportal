@@ -1,0 +1,12 @@
+columnSuffix: zlfyrilz
+contentColumnType: string(7)
+fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
+handle: hintergrundfarbeElement
+instructions: 'Hier können Sie die Hintergrundfarbe dieser Box einstellen (z.B. rot für Alarm).'
+name: 'Hintergrundfarbe Element'
+searchable: false
+settings:
+  defaultColor: '#e5e5e5'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

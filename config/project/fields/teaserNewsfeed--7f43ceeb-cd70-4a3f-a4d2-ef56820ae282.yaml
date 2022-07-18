@@ -1,0 +1,19 @@
+columnSuffix: imvqjhfh
+contentColumnType: string(1200)
+fieldGroup: 7c955644-e560-4ceb-a37c-d63a20fb38a8 # Newsfeed
+handle: teaserNewsfeed
+instructions: 'Teaser, der auf der Homepage angezeigt wird, ~280 Zeichen.'
+name: Teaser
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 300
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

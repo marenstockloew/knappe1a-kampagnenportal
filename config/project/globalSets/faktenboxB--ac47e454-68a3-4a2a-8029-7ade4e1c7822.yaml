@@ -6,7 +6,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: e261e30b-0acf-433c-b2c1-7ee96b4c98e2 # Aktiviert
+            fieldUid: e261e30b-0acf-433c-b2c1-7ee96b4c98e2 # Soll dieses Element angezeigt werden?
             instructions: null
             label: null
             required: false
@@ -45,4 +45,4 @@ fieldLayouts:
         userCondition: null
 handle: faktenboxB
 name: 'Faktenbox B'
-sortOrder: 6
+sortOrder: 8

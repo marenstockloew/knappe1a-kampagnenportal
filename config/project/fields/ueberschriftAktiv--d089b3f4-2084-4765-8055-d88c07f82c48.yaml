@@ -1,0 +1,14 @@
+columnSuffix: ptykieqk
+contentColumnType: boolean
+fieldGroup: 7a06f3a4-5677-4a69-b024-8e403a815a9a # Header
+handle: ueberschriftAktiv
+instructions: 'Hier können Sie einstellen,  ob Sie noch eine weitere Überschrift auf der Webseite anzeigen möchten.'
+name: 'Überschrift Aktiv'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

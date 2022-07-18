@@ -1,21 +1,9 @@
 fieldLayouts:
-  668aa223-04f0-4e86-83d6-82293e001bcc:
+  82b4b4a2-3c3d-4761-9174-86f04d612daf:
     tabs:
       -
         elementCondition: null
         elements:
-          -
-            elementCondition: null
-            fieldUid: 3777a085-06d2-424c-9e6f-e2a2c471d061 # Thumbnail
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 10155ba6-781f-48f0-92a2-333883fa84f9
-            userCondition: null
-            warning: null
-            width: 100
           -
             autocapitalize: true
             autocomplete: false
@@ -38,48 +26,60 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: d347100b-65dd-48d6-97ea-25342df1371c
+            uid: 817b406c-4945-4784-9788-49231f7aa9b3
             userCondition: null
             warning: null
             width: 100
-        name: 'Darstellung auf Hompage'
-        uid: f5d7d67c-14ca-4519-a87c-08715a1ed982
+          -
+            elementCondition: null
+            fieldUid: 5727e741-e5ae-46f1-8446-12b507bac994 # Artikel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2ede62c-0737-4990-b067-064bd827765c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Page
+        uid: 801fbedc-fa76-4716-93b0-e86f9e452ac6
         userCondition: null
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 362fe411-bc28-4caf-9980-d3fc7fc955d0 # Page-Titel
+            fieldUid: 3e8cb3ca-dab5-441d-9dc5-a1d9a2fa4ca5 # Thumbnail
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 79b189bd-f1cd-4d60-b32c-b3b888c6671a
+            uid: a0098828-41cb-45f1-b9e3-e2c498443adb
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            fieldUid: 7f43ceeb-cd70-4a3f-a4d2-ef56820ae282 # Teaser
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ba7c8a67-dec9-4be8-9eab-dc29392baf2b
+            uid: 18833d20-1179-49f3-aac4-e899c29bf7a8
             userCondition: null
             warning: null
             width: 100
-        name: 'Darstellung der Unterseite'
-        uid: 30134c8b-d27f-41cf-9a56-f70ef20679a4
+        name: Meta
+        uid: 38e0bda3-7720-4b8a-ad63-a2a775de4d1c
         userCondition: null
-handle: page
+handle: default
 hasTitleField: true
-name: Page
-section: c7d84c5a-8797-4c50-a856-17a313e86dd8 # Pages
-sortOrder: 2
+name: Standard
+section: 12e2b3a2-38d3-4aae-b6dd-92394501f149 # Newsfeed
+sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

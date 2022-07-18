@@ -1,9 +1,9 @@
-columnSuffix: yxjrrlef
+columnSuffix: rzpqatac
 contentColumnType: text
-fieldGroup: cbdc3555-7825-4900-b52d-36dc3dec2cfa # News
-handle: kurzbeschreibungTitel
-instructions: null
-name: 'Kurzbeschreibung: Titel'
+fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
+handle: titelNewsfeed
+instructions: 'Hier können Sie eine Überschrift für den Newsfeed eingeben.'
+name: 'Titel Newsfeed'
 searchable: false
 settings:
   byteLimit: null
@@ -12,7 +12,7 @@ settings:
   columnType: null
   initialRows: 4
   multiline: false
-  placeholder: null
+  placeholder: Newsfeed
   uiMode: normal
 translationKeyFormat: null
 translationMethod: none

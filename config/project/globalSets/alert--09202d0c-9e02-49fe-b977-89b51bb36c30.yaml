@@ -1,5 +1,5 @@
 fieldLayouts:
-  4d7f33a5-a0d5-4bf5-bc93-7fca53db3363:
+  06da34d7-9b6c-4ccc-b856-345dc6a6efe7:
     tabs:
       -
         elementCondition: null
@@ -12,19 +12,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a188f65a-a3fe-414d-b663-079e9cdc0d4d
+            uid: 25e2f492-5b0f-4fc1-803b-4e04afe5696b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f1e2a9cf-f5eb-40d4-81f8-90cf1653a033 # Link
+            fieldUid: 46e4a549-c452-4c86-a78f-65d94063337f # Hintergrundfarbe Element
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ad8ecbe4-2cb6-4be8-9fc7-b2d2e12a762b
+            uid: a16c39f1-2198-4be2-9b34-d398e181c3e4
             userCondition: null
             warning: null
             width: 100
@@ -36,13 +36,25 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 923582e3-a81a-4471-8d2a-da65001dbd52
+            uid: 3f2a1edc-4882-4c54-bd0b-5c054b0d7345
             userCondition: null
             warning: null
             width: 100
-        name: 'Teaser A'
-        uid: 5f0709dd-ee88-4cbd-b3dd-31629a929b3d
+          -
+            elementCondition: null
+            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41fc376d-8fac-459f-8530-996ff3902147
+            userCondition: null
+            warning: null
+            width: 100
+        name: Alert
+        uid: 0c8b4d0d-d02d-43b9-9b52-f9552ceb87d4
         userCondition: null
-handle: teaserA
-name: 'Teaser A'
-sortOrder: 5
+handle: alert
+name: Alert
+sortOrder: 4

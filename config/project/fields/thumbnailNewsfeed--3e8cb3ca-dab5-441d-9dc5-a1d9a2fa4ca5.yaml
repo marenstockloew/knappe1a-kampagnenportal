@@ -1,8 +1,8 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: 1057c348-12f1-4a0d-b548-7f404b04b6e5 # Pages
-handle: thumbnail
-instructions: 'Thumbnail für die entsprechende Unterseite'
+fieldGroup: 7c955644-e560-4ceb-a37c-d63a20fb38a8 # Newsfeed
+handle: thumbnailNewsfeed
+instructions: null
 name: Thumbnail
 searchable: false
 settings:
@@ -32,15 +32,14 @@ settings:
       -
         - class
         - craft\elements\conditions\assets\AssetCondition
-  selectionLabel: 'Thumbnail hinzufügen'
+  selectionLabel: null
   showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   source: null
-  sources:
-    - 'volume:92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a' # Uploads
+  sources: '*'
   targetSiteId: null
-  validateRelatedElements: true
+  validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null
 translationMethod: site

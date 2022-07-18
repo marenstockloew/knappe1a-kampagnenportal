@@ -1,24 +1,24 @@
 fieldLayouts:
-  15279d3f-733d-40b3-8bcf-a9d6181b93f7:
+  9bbf98f0-2fe5-4a2f-b20a-d935e3126ea2:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            fieldUid: 131e509c-0eec-41c9-9506-d7f5886dac65 # Hintergrundfarbe
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a4c59dd9-3bc5-4248-b29f-9dd200e920da
+            uid: 0fc5f5f2-81cb-4af0-9168-391b13869c73
             userCondition: null
             warning: null
             width: 100
-        name: Inhalt
-        uid: c626ba6a-f0a4-4acf-9a95-fe1931454b1f
+        name: Farben
+        uid: 19790f08-a625-4b2e-b3fc-269a31831251
         userCondition: null
-handle: footer
-name: Footer
-sortOrder: 9
+handle: configuration
+name: Allgemein
+sortOrder: 1

@@ -1,5 +1,6 @@
+{# Set information for meta tags #}
 {% set pageTitle = entry.title|default('Home') ~ " | " ~ siteName  %}
-{% set pageDescription  = entry.kurzbeschreibungText | default('Informationsportal') %}
+{# {% set pageDescription  = entry.kurzbeschreibungText | default('Informationsportal') %} #}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,20 +11,23 @@
 		<link rel="stylesheet" href="./public/styles.css">
 
 		<title>{{ pageTitle }}</title>
-		<meta name="description" content="{{ pageDescription }}">
+		{# <meta name="description" content="{{ pageDescription }}"> #}
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 	</head>
 
-	<body class="bg-red-500">
+	{# Set the background color of the page #}
+	<body style="background-color: {{configuration.hintergrundfarbe}}">
 
 		{# Include the header with the logo and heading #}
 		{% include "components/globals/header" %}
 
+		{# Include the main content of the page #}
         {% block content %}{% endblock %}
 
+		{# Include the footer #}
 		{% include "components/globals/footer" %}
 
 	</body>

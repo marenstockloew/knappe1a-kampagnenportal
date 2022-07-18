@@ -18,6 +18,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: d089b3f4-2084-4765-8055-d88c07f82c48 # Überschrift Aktiv
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 08e52028-9e9d-49b1-9fd3-7d6c7f4857a4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 66a0921c-ce39-4564-a7a7-312ff283966b # Titel der Website
             instructions: null
             label: null

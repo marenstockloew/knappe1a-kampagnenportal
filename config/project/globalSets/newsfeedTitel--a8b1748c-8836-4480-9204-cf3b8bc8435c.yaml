@@ -1,5 +1,5 @@
 fieldLayouts:
-  4d7f33a5-a0d5-4bf5-bc93-7fca53db3363:
+  ed448786-57af-4b9d-a850-7c1c5ac57de7:
     tabs:
       -
         elementCondition: null
@@ -12,37 +12,25 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a188f65a-a3fe-414d-b663-079e9cdc0d4d
+            uid: 138e9e38-bb91-40ee-87d1-39632e90823b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f1e2a9cf-f5eb-40d4-81f8-90cf1653a033 # Link
+            fieldUid: b93ffd04-3321-4db7-8daa-76bff95506e1 # Titel Newsfeed
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ad8ecbe4-2cb6-4be8-9fc7-b2d2e12a762b
+            uid: d6863aa8-a04a-49bf-afa0-bbe1214f5469
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 508d09ee-ce8f-4b5b-8492-e73c99311ffb # Titel
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 923582e3-a81a-4471-8d2a-da65001dbd52
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Teaser A'
-        uid: 5f0709dd-ee88-4cbd-b3dd-31629a929b3d
+        name: Titel
+        uid: 61631b80-fe4f-48b6-b184-853ae1ed6db6
         userCondition: null
-handle: teaserA
-name: 'Teaser A'
-sortOrder: 5
+handle: newsfeedTitel
+name: 'Newsfeed Titel'
+sortOrder: 3

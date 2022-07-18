@@ -7,7 +7,7 @@
     "build-css": "tailwindcss build -i templates/src/styles.css -o templates/public/styles.css --watch",
     "build-page-css": "tailwindcss build -i templates/src/styles.css -o templates/pages/public/styles.css --watch",
     "build-news-css": "tailwindcss build -i templates/src/styles.css -o templates/news/public/styles.css --watch",
-    "build-all-css": "tailwindcss build -i templates/src/styles.css -o templates/public/styles.css && tailwindcss build -i templates/src/styles.css -o templates/pages/public/styles.css && tailwindcss build -i templates/src/styles.css -o templates/news/public/styles.css"
+    "build-all-css": "tailwindcss build -i templates/src/styles.css -o templates/public/styles.css && tailwindcss build -i templates/src/styles.css -o templates/newsfeed/public/styles.css"
   },
   "author": "",
   "license": "ISC",

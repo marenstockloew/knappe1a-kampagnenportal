@@ -1,0 +1,12 @@
+columnSuffix: wwhiekjh
+contentColumnType: string(7)
+fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
+handle: hintergrundfarbe
+instructions: 'Hier können Sie die Hintergrundfarbe der gesamten Website einstellen.'
+name: Hintergrundfarbe
+searchable: false
+settings:
+  defaultColor: '#fafafa'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color

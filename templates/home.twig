@@ -2,29 +2,27 @@
 
 {% block content %}
 
-    <div class="p-2 sm:p-5">
+    <div class="px-[5vw] sm:px-[8vw] py-[2vh]">
 
+        {# Include the optional heading #}
+        {% if header.ueberschriftAktiv %}
+            <div class="flex justify-center place-items-center"> 
+                <h2 class="text-slate-800">{{ header.titelDerWebsite }}</h2>
+            </div>
+        {% endif %}
+
+        {# Include the optional alert #}
+        <div> {% include "components/globals/alert" %} </div>
+
+        {# Include the optional teaser boxes #}
         <div class="flex justify-center"> {% include "components/globals/teaser" %} </div>
 
+        {# Include the optional info boxes #}
         <div> {% include "components/globals/faktenbox" %} </div>
 
+        {# Include the newsfeed #}
+        <div> {% include "components/newsfeed" %} </div>
+
     </div>
-
-
-
-                    {# Include Pages #}
-                {# {% include "components/index/pages" %} #}
-
-                {# Include Links #}
-                {% include "components/index/links" %}
-
-    {# Title of Website (in mobile version hidden) #}
-    {% include "components/home/header" %}
-
-    {# An infobox with some current changeable data #}
-    {% include "components/home/infobox" %}
-
-    {# The newsfeed #}
-    {% include "components/home/newsfeed" %}
 
 {% endblock %}
