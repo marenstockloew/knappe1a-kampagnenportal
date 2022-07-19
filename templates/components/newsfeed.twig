@@ -13,7 +13,7 @@
     {% set thumbnail = eintrag.thumbnailNewsfeed.one() %}
 
     <a href="{{eintrag.url}}">
-        <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6">
+        <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6 md:text-lg mb-[4rem] md:my-1">
 
             <div class="w-full md:col-span-3 md:relative my-2 md:my-5">
                 <img src="{{thumbnail.getUrl('newsbildHomepage')}}" alt="Bild zum Thema {{eintrag.title}}" class="object-cover h-full w-full">

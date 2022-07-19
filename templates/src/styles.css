@@ -9,11 +9,11 @@
         font-family: 'Manrope', sans-serif;
     }
     h1 {
-        @apply text-5xl md:text-7xl;
+        @apply text-4xl md:text-5xl;
         @apply my-1 md:my-8;
     }
     h2 {
-        @apply text-3xl md:text-5xl;
+        @apply text-3xl md:text-4xl;
         @apply my-1 md:my-3;
     }
     h3 {

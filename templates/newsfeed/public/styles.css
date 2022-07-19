@@ -424,14 +424,14 @@ html {
 }
 
 h1{
-  font-size: 3rem;
-  line-height: 1;
+  font-size: 51.88px;
+  line-height: 78.47px;
 }
 
 @media (min-width: 768px){
   h1{
-    font-size: 4.5rem;
-    line-height: 1;
+    font-size: 64.85px;
+    line-height: 98.09px;
   }
 }
 
@@ -448,14 +448,14 @@ h1{
 }
 
 h2{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 41.50px;
+  line-height: 62.79px;
 }
 
 @media (min-width: 768px){
   h2{
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 51.88px;
+    line-height: 78.47px;
   }
 }
 
@@ -472,14 +472,14 @@ h2{
 }
 
 h3{
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 33.20px;
+  line-height: 50.23px;
 }
 
 @media (min-width: 768px){
   h3{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 41.50px;
+    line-height: 62.79px;
   }
 }
 
@@ -645,8 +645,8 @@ iframe{
 }
 
 .link{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 26.56px;
+  line-height: 40.19px;
   --tw-text-opacity: 1;
   color: rgb(82 82 82 / var(--tw-text-opacity));
   -webkit-text-decoration-line: underline;
@@ -718,6 +718,10 @@ iframe{
   margin-bottom: 0.75rem;
 }
 
+.mb-\[4rem\]{
+  margin-bottom: 4rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -754,8 +758,8 @@ iframe{
   width: 100%;
 }
 
-.w-\[85vw\]{
-  width: 85vw;
+.w-\[80vw\]{
+  width: 80vw;
 }
 
 .w-3\/4{
@@ -832,10 +836,6 @@ iframe{
   padding: 0.5rem;
 }
 
-.p-1{
-  padding: 0.25rem;
-}
-
 .px-\[5vw\]{
   padding-left: 5vw;
   padding-right: 5vw;
@@ -844,6 +844,16 @@ iframe{
 .py-\[2vh\]{
   padding-top: 2vh;
   padding-bottom: 2vh;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-2{
@@ -856,8 +866,8 @@ iframe{
 }
 
 .text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 21.25px;
+  line-height: 32.14px;
 }
 
 .font-bold{
@@ -904,8 +914,8 @@ iframe{
     display: none;
   }
 
-  .sm\:w-\[75vw\]{
-    width: 75vw;
+  .sm\:w-\[70vw\]{
+    width: 70vw;
   }
 
   .sm\:w-1\/4{
@@ -948,6 +958,11 @@ iframe{
     grid-column: span 5 / span 5;
   }
 
+  .md\:my-1{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
   .md\:my-5{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -957,8 +972,8 @@ iframe{
     display: grid;
   }
 
-  .md\:w-\[70vw\]{
-    width: 70vw;
+  .md\:w-\[60vw\]{
+    width: 60vw;
   }
 
   .md\:grid-cols-8{
@@ -974,14 +989,9 @@ iframe{
          column-gap: 1.5rem;
   }
 
-  .md\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 21.25px;
+    line-height: 32.14px;
   }
 }
 
