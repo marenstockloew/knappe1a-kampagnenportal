@@ -9,15 +9,15 @@
         font-family: 'Manrope', sans-serif;
     }
     h1 {
-        @apply text-4xl md:text-5xl;
+        @apply text-3xl md:text-4xl;
         @apply my-1 md:my-8;
     }
     h2 {
-        @apply text-3xl md:text-4xl;
+        @apply text-2xl md:text-3xl;
         @apply my-1 md:my-3;
     }
     h3 {
-        @apply text-2xl md:text-3xl;
+        @apply text-xl md:text-2xl;
         @apply my-1 md:my-2;
     }
     iframe {
@@ -27,9 +27,9 @@
 
   @layer components {
     .link {
-        @apply underline text-xl text-neutral-600;
+        @apply underline text-lg md:text-xl text-neutral-600;
     }
     .btn {
-        @apply rounded-md font-bold cursor-pointer bg-neutral-300 p-2;
+        @apply rounded-md font-bold cursor-pointer shadow-lg p-2;
     }
   }

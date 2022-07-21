@@ -4,7 +4,7 @@
 
 	<div class="">
 
-		<div class="w-[80vw] sm:w-[70vw] md:w-[60vw] py-[2vh] mx-auto">
+		<div class="w-[80vw] sm:[70vw] md:w-[45rem] py-[2vh] mx-auto">
 
             <div class="mx-2">
 			    <h1>{{entry.title}}</h1>
@@ -37,13 +37,13 @@
                     {# Button Externer Link #}
 				    {% elseif block.type == "externerLink" %}
                         <div class=" my-5 mx-auto">
-                            <a class="btn" href="{{block.externerLinkURL}}">{{block.externerLinkText}}</a>
+                            <a class="btn" style="background-color: {{configuration.akzentfarbe2}};" href="{{block.externerLinkURL}}">{{block.externerLinkText}}</a>
                         </div>
 
                     {# Button Interner Link #}
 				    {% elseif block.type == "internerLink" %}
                         <div class=" my-5 mx-auto">
-                            <a class="btn" href="{{block.internerLinkURL.one().url}}">{{block.internerLinkText}}</a>
+                            <a class="btn" style="background-color: {{configuration.akzentfarbe2}};" href="{{block.internerLinkURL.one().url}}">{{block.internerLinkText}}</a>
                         </div>
 
 				    {% endif %}
@@ -52,7 +52,7 @@
             </div>
 
 			<div class="my-10">
-				<a class="link" href="{{siteUrl}}">Zurück zur Startseite</a>
+				<a class="link" href="{{siteUrl}}" style="color: {{configuration.akzentfarbe1}}">Zurück zur Startseite</a>
 			</div>
 
 		</div>

@@ -1,0 +1,19 @@
+columnSuffix: qwtlzido
+contentColumnType: text
+fieldGroup: 7c955644-e560-4ceb-a37c-d63a20fb38a8 # Newsfeed
+handle: artikeltypNewsfeed
+instructions: 'z.B. Information, Interview, Pressemitteilung.'
+name: Artikeltyp
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

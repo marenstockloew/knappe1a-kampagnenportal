@@ -12,16 +12,16 @@
         {% endif %}
 
         {# Include the optional alert #}
-        <div> {% include "components/globals/alert" %} </div>
+        <div> {% include ["components/globals/alert"] ignore missing %} </div>
 
         {# Include the optional teaser boxes #}
-        <div class="flex justify-center"> {% include "components/globals/teaser" %} </div>
+        <div class="flex justify-center"> {% include "components/globals/teaser" ignore missing %} </div>
 
         {# Include the optional info boxes #}
-        <div> {% include "components/globals/faktenbox" %} </div>
+        <div> {% include "components/globals/faktenbox" ignore missing %} </div>
 
         {# Include the newsfeed #}
-        <div> {% include "components/newsfeed" %} </div>
+        <div> {% include "components/newsfeed" ignore missing %} </div>
 
     </div>
 

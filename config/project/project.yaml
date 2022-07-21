@@ -1,4 +1,4 @@
-dateModified: 1658136465
+dateModified: 1658339392
 email:
   fromEmail: m.stockloew@posteo.de
   fromName: knappe1a
@@ -15,6 +15,7 @@ meta:
   __names__:
     0c9d1beb-82ab-469b-a493-b8dba169647c: 'Thumbnails Pages' # Thumbnails Pages
     1a1c0ebf-45d2-4f42-ad6e-18bbd11a1770: 'Link zu interner Seite (Button)' # Link zu interner Seite (Button)
+    2f7028c3-83e0-4bd4-bedf-2d5066f0a521: Artikeltyp # Artikeltyp
     3aa47e3a-96fa-4388-8758-430094b386ee: 'Externer Link' # Externer Link
     3dcb9279-424c-44e9-a64e-99741b4bca88: Aktuelles # Aktuelles
     3e3b58ba-70ac-4e8a-a666-bfeb004477e3: Home # Home
@@ -35,6 +36,7 @@ meta:
     46e4a549-c452-4c86-a78f-65d94063337f: 'Hintergrundfarbe Element' # Hintergrundfarbe Element
     051b3a15-6d7d-403e-a94d-e679ba2fcd5d: Text # Text
     59e772b9-cba7-4595-bc1b-d793dd49429a: Globals # Globals
+    63e479fb-c527-440e-ba46-417bbb5fe5eb: 'Akzentfarbe 2' # Akzentfarbe 2
     66a0921c-ce39-4564-a7a7-312ff283966b: 'Titel der Website' # Titel der Website
     66c28356-677b-45f5-a14a-d904405164a6: 'Text oder HTML Code' # Text oder HTML Code
     92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a: Uploads # Uploads
@@ -49,7 +51,6 @@ meta:
     508d09ee-ce8f-4b5b-8492-e73c99311ffb: Titel # Titel
     868af8af-01e4-4cf2-a0ae-3bd6def87977: Datum # Datum
     908e0d83-49fd-479f-aae2-bc9fa8fe9ac7: Linkname # Linkname
-    948fcb75-415b-4f6a-9afb-c0fca6d43708: Datum # Datum
     5727e741-e5ae-46f1-8446-12b507bac994: Artikel # Artikel
     7626d633-01af-4f4c-9e3c-ca5f6b85ef02: Allgemein # Allgemein
     09202d0c-9e02-49fe-b977-89b51bb36c30: Alert # Alert
@@ -61,6 +62,7 @@ meta:
     aa948a80-9a83-4149-8d3d-25b247451e1d: Bild # Bild
     ac47e454-68a3-4a2a-8029-7ade4e1c7822: 'Faktenbox B' # Faktenbox B
     b93ffd04-3321-4db7-8daa-76bff95506e1: 'Titel Newsfeed' # Titel Newsfeed
+    bbef6044-7d82-45ad-9962-f61fe5f6c388: 'Akzentfarbe 1' # Akzentfarbe 1
     bc498902-7ebe-4f96-bbb1-991c61bacf65: Header # Header
     c0f5928e-037f-445b-abb6-88470f1b5fd0: 'Teaser B' # Teaser B
     c3a94b2c-4a80-4c5a-b665-cbcf60f3afea: 'Benennung Newsfeed' # Benennung Newsfeed

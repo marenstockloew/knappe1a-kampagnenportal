@@ -22,13 +22,13 @@
 	<body style="background-color: {{configuration.hintergrundfarbe}}">
 
 		{# Include the header with the logo and heading #}
-		{% include "components/globals/header" %}
+		{% include "components/globals/header" ignore missing %}
 
 		{# Include the main content of the page #}
         {% block content %}{% endblock %}
 
 		{# Include the footer #}
-		{% include "components/globals/footer" %}
+		{% include "components/globals/footer" ignore missing %}
 
 	</body>
 </html>

@@ -2,7 +2,7 @@ columnSuffix: wwhiekjh
 contentColumnType: string(7)
 fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
 handle: hintergrundfarbe
-instructions: 'Hier können Sie die Hintergrundfarbe der gesamten Website einstellen.'
+instructions: "Hier können Sie die Hintergrundfarbe der gesamten Website einstellen.\r\nDie Standardfarbe, die erscheint, wenn Sie nichts wählen, ist ein dezentes grau."
 name: Hintergrundfarbe
 searchable: false
 settings:

@@ -16,6 +16,30 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: bbef6044-7d82-45ad-9962-f61fe5f6c388 # Akzentfarbe 1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fa22b1d5-57f6-49b9-8d89-007eba49bb40
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 63e479fb-c527-440e-ba46-417bbb5fe5eb # Akzentfarbe 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7d668cc1-459d-43b6-90a9-9639c41ecc2e
+            userCondition: null
+            warning: null
+            width: 100
         name: Farben
         uid: 19790f08-a625-4b2e-b3fc-269a31831251
         userCondition: null

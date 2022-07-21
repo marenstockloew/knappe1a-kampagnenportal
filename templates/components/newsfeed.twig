@@ -1,4 +1,8 @@
-{% set news = craft.entries.section('newsfeed').all() %}
+{% set query = craft.entries()
+  .section('newsfeed')
+  .limit(2) %}
+
+{% paginate query as pageInfo, pageEntries %}
 
 {% if newsfeedTitel.activated %}
 
@@ -8,7 +12,7 @@
 
 {% endif %}
 
-{% for eintrag in news %}
+{% for eintrag in pageEntries %}
 
     {% set thumbnail = eintrag.thumbnailNewsfeed.one() %}
 
@@ -20,13 +24,24 @@
             </div>
 
             <div class="md:col-span-5 my-2 md:my-5">
-                {# {{eintrag.datum|date('d.m.Y')}} #}
-                {{ eintrag.postDate | date("d.m.Y") }}
-                <h2 class="hover:underline">{{eintrag.title}}</h2>
-                <p>{{eintrag.teaserNewsfeed}}</p>
+                <div class="font-bold" style="color: {{configuration.akzentfarbe1}}">{{eintrag.artikeltypNewsfeed}}</div>
+                <div class="text-sm font-bold" style="color: {{configuration.akzentfarbe1}}"> Veröffentlicht am {{ eintrag.postDate | date("d.m.Y") }}</div>
+                <h3 class="hover:underline mt-0">{{eintrag.title}}</h3>
+                <p class="md:min-h-[12rem]">{{eintrag.teaserNewsfeed}}</p>
             </div>
 
         </div>
     </a>
 
 {% endfor %}
+
+{#  #}
+<div class="text-center" style="color: {{configuration.akzentfarbe1}}">
+    <p class="md:text-lg">
+        Seite {{ pageInfo.currentPage}} / {{ pageInfo.totalPages }}
+    </p>
+    <p class="my-1 md:my-6" >
+        {% if pageInfo.prevUrl %}<a class="link text-center mx-1 md:mx-[10vw]" href="{{ pageInfo.prevUrl }}" style="color: {{configuration.akzentfarbe1}}">Neuere&nbsp;Meldungen</a>{% endif %}
+        {% if pageInfo.nextUrl %}<a class="link text-center mx-1 md:mx-[10vw]" href="{{ pageInfo.nextUrl }}" style="color: {{configuration.akzentfarbe1}}">Ältere&nbsp;Meldungen</a>{% endif %}
+    </p>
+</div>
