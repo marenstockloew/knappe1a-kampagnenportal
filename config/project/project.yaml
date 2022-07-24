@@ -1,4 +1,4 @@
-dateModified: 1658339392
+dateModified: 1658692021
 email:
   fromEmail: m.stockloew@posteo.de
   fromName: knappe1a
@@ -14,6 +14,7 @@ fs:
 meta:
   __names__:
     0c9d1beb-82ab-469b-a493-b8dba169647c: 'Thumbnails Pages' # Thumbnails Pages
+    0fc3c784-7fa8-4f25-8ef3-0ce90302f053: Favicon-Datei # Favicon-Datei
     1a1c0ebf-45d2-4f42-ad6e-18bbd11a1770: 'Link zu interner Seite (Button)' # Link zu interner Seite (Button)
     2f7028c3-83e0-4bd4-bedf-2d5066f0a521: Artikeltyp # Artikeltyp
     3aa47e3a-96fa-4388-8758-430094b386ee: 'Externer Link' # Externer Link
@@ -31,6 +32,7 @@ meta:
     8bcb303a-e7ae-4b94-be2f-e7a8a31f1541: Home # Home
     8d9019bf-6697-4bb2-acdd-1ca1dc2a5de4: 'Gesamter Artikel' # Gesamter Artikel
     12e2b3a2-38d3-4aae-b6dd-92394501f149: Newsfeed # Newsfeed
+    24e64989-e24f-4bbc-8286-3a8f0d2f940a: SEO
     28b1f19e-d3c9-4f70-a78a-7b24200124e8: Text # Text
     36abde1f-5a22-485e-8435-a4fb6ac82354: knappe1a # knappe1a
     46e4a549-c452-4c86-a78f-65d94063337f: 'Hintergrundfarbe Element' # Hintergrundfarbe Element
@@ -62,10 +64,12 @@ meta:
     aa948a80-9a83-4149-8d3d-25b247451e1d: Bild # Bild
     ac47e454-68a3-4a2a-8029-7ade4e1c7822: 'Faktenbox B' # Faktenbox B
     b93ffd04-3321-4db7-8daa-76bff95506e1: 'Titel Newsfeed' # Titel Newsfeed
+    b1364b29-a590-4012-9076-d089df012794: Favicon # Favicon
     bbef6044-7d82-45ad-9962-f61fe5f6c388: 'Akzentfarbe 1' # Akzentfarbe 1
     bc498902-7ebe-4f96-bbb1-991c61bacf65: Header # Header
     c0f5928e-037f-445b-abb6-88470f1b5fd0: 'Teaser B' # Teaser B
     c3a94b2c-4a80-4c5a-b665-cbcf60f3afea: 'Benennung Newsfeed' # Benennung Newsfeed
+    c61c9ed6-cccb-49fb-8f3f-222f4891dc87: 'SEO / Meta' # SEO / Meta
     d089b3f4-2084-4765-8055-d88c07f82c48: 'Überschrift Aktiv' # Überschrift Aktiv
     d61c645d-1715-494e-beee-f667748a84d9: 'Newsbild Homepage' # Newsbild Homepage
     dd1e058c-bcd5-4b67-9a2a-eb4230b0c016: Standard # Standard

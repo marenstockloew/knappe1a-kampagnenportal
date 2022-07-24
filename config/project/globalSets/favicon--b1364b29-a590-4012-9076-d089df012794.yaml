@@ -1,24 +1,24 @@
 fieldLayouts:
-  15279d3f-733d-40b3-8bcf-a9d6181b93f7:
+  a8b894ed-3bad-44e6-9e2e-ae32255bd17d:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            fieldUid: 0fc3c784-7fa8-4f25-8ef3-0ce90302f053 # Favicon-Datei
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a4c59dd9-3bc5-4248-b29f-9dd200e920da
+            uid: c8cf3e11-bfb6-4ab4-8c5c-79e77ccc11e0
             userCondition: null
             warning: null
             width: 100
-        name: Inhalt
-        uid: c626ba6a-f0a4-4acf-9a95-fe1931454b1f
+        name: Favicon
+        uid: 20f05aaf-5ddd-48be-b3a7-07a5dbc39735
         userCondition: null
-handle: footer
-name: Footer
-sortOrder: 10
+handle: favicon
+name: Favicon
+sortOrder: 1

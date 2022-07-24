@@ -1,13 +1,13 @@
 {% set query = craft.entries()
   .section('newsfeed')
-  .limit(2) %}
+  .limit(4) %}
 
 {% paginate query as pageInfo, pageEntries %}
 
 {% if newsfeedTitel.activated %}
 
     <div>
-        <h1 class="flex justify-center">{{newsfeedTitel.titelNewsfeed}}</h1>
+        <h1 class="flex justify-center mt-10">{{newsfeedTitel.titelNewsfeed}}</h1>
     </div>
 
 {% endif %}
@@ -17,7 +17,7 @@
     {% set thumbnail = eintrag.thumbnailNewsfeed.one() %}
 
     <a href="{{eintrag.url}}">
-        <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6 md:text-lg mb-[4rem] md:my-1">
+        <div class="md:grid md:grid-cols-8 md:justify-items-stretch gap-x-2 md:gap-x-6 md:text-lg mb-[2rem] md:my-1 p-2 md:px-6 hover:bg-neutral-100 hover:shadow-lg">
 
             <div class="w-full md:col-span-3 md:relative my-2 md:my-5">
                 <img src="{{thumbnail.getUrl('newsbildHomepage')}}" alt="Bild zum Thema {{eintrag.title}}" class="object-cover h-full w-full">
@@ -37,7 +37,7 @@
 
 {#  #}
 <div class="text-center" style="color: {{configuration.akzentfarbe1}}">
-    <p class="md:text-lg">
+    <p class="md:text-lg mt-1 md:mt-4">
         Seite {{ pageInfo.currentPage}} / {{ pageInfo.totalPages }}
     </p>
     <p class="my-1 md:my-6" >

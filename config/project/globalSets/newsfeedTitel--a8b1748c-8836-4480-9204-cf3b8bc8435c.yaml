@@ -33,4 +33,4 @@ fieldLayouts:
         userCondition: null
 handle: newsfeedTitel
 name: 'Newsfeed Titel'
-sortOrder: 3
+sortOrder: 4

@@ -2,7 +2,7 @@ columnSuffix: mxitfjgm
 contentColumnType: string(7)
 fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
 handle: akzentfarbe2
-instructions: "Hier können Sie eine zweite Akzentfarbe einstellen. Falls Sie in Artikeln Link-Buttons verwenden, werden diese in der entsprechenden Farbe erscheinen.\r\nFalls Sie hier nichts auswählen, erscheinen die Buttons in einem neutralen grau."
+instructions: "Hier können Sie eine zweite Akzentfarbe für Buttons (Links zu internen/externen Seiten) einstellen.\r\n\r\nFalls Sie hier nichts auswählen, erscheinen die Buttons in einem neutralen grau."
 name: 'Akzentfarbe 2'
 searchable: false
 settings:
