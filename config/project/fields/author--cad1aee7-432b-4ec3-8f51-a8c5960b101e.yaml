@@ -1,0 +1,19 @@
+columnSuffix: vdtgnlxf
+contentColumnType: text
+fieldGroup: 24e64989-e24f-4bbc-8286-3a8f0d2f940a # SEO
+handle: author
+instructions: 'Hier können Sie einen Autor der Seite eintragen.'
+name: Author
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

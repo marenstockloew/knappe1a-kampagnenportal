@@ -1,11 +1,9 @@
-{# Set information for meta tags #}
-{% set pageTitle = entry.title|default('Home') ~ " | " ~ siteName  %}
-{# {% set pageDescription  = entry.kurzbeschreibungText | default('Informationsportal') %} #}
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 
+		{# FAVICON #}
+		{# Code from website: https://craftsnippets.com/articles/adding-favicons-to-craft-cms-website?s=s #}
 		{# requires global with handle 'favicon' containing asset field with handle 'faviconFile' #}
 		{# v2 #}
 		{% cache globally %} 
@@ -54,15 +52,20 @@
 		{% endif %}
 		{% endcache %}
 
+		{# META TAGS #}
+		{% set pageTitle = entry.title|default('Home') ~ " | " ~ seo.HTMLtitle  %}
+		{% set pageDescription  = seo.description | default('Informationsportal') %}
+		{% set pageAuthor  = seo.author | default('') %}
 
+		<title>{{ pageTitle }}</title>
+		<meta name="description" content="{{ pageDescription }}">
+		<meta name="author" content="{{ pageAuthor }} mittels Knappe 1A productions CMS.">
+
+		{# RESTLICHE META TAGS #}
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./public/styles.css">
-
-		<title>{{ pageTitle }}</title>
-		{# <meta name="description" content="{{ pageDescription }}"> #}
-
+		<link rel="stylesheet" href="./public/styles.css">		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">

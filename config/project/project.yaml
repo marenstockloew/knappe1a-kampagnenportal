@@ -1,4 +1,4 @@
-dateModified: 1658692021
+dateModified: 1658735314
 email:
   fromEmail: m.stockloew@posteo.de
   fromName: knappe1a
@@ -18,6 +18,7 @@ meta:
     1a1c0ebf-45d2-4f42-ad6e-18bbd11a1770: 'Link zu interner Seite (Button)' # Link zu interner Seite (Button)
     2f7028c3-83e0-4bd4-bedf-2d5066f0a521: Artikeltyp # Artikeltyp
     3aa47e3a-96fa-4388-8758-430094b386ee: 'Externer Link' # Externer Link
+    3d3da70b-9dbb-4cc9-95ec-a10e4cc9b046: Keywords # Keywords
     3dcb9279-424c-44e9-a64e-99741b4bca88: Aktuelles # Aktuelles
     3e3b58ba-70ac-4e8a-a666-bfeb004477e3: Home # Home
     3e8cb3ca-dab5-441d-9dc5-a1d9a2fa4ca5: Thumbnail # Thumbnail
@@ -25,14 +26,16 @@ meta:
     6b958387-7d64-4b74-b25e-024b7acdb8e2: Logo # Logo
     6bb66f74-adc8-4919-9f78-89a964482176: 'Ausführlicher Text' # Ausführlicher Text
     6c20b3d7-83a7-439c-8dd5-0ccf5f2676b0: 'Faktenbox A' # Faktenbox A
+    6ebe96ac-c98c-487b-9fba-83c0508a9b8e: Description # Description
     7a06f3a4-5677-4a69-b024-8e403a815a9a: Header # Header
     7ad1f217-730b-4397-9d8e-668d8648367e: Text # Text
     7c955644-e560-4ceb-a37c-d63a20fb38a8: Newsfeed # Newsfeed
     7f43ceeb-cd70-4a3f-a4d2-ef56820ae282: Teaser # Teaser
     8bcb303a-e7ae-4b94-be2f-e7a8a31f1541: Home # Home
     8d9019bf-6697-4bb2-acdd-1ca1dc2a5de4: 'Gesamter Artikel' # Gesamter Artikel
+    9d793824-91eb-4346-a5ce-d440904e78ff: 'Public Schema'
     12e2b3a2-38d3-4aae-b6dd-92394501f149: Newsfeed # Newsfeed
-    24e64989-e24f-4bbc-8286-3a8f0d2f940a: SEO
+    24e64989-e24f-4bbc-8286-3a8f0d2f940a: SEO # SEO
     28b1f19e-d3c9-4f70-a78a-7b24200124e8: Text # Text
     36abde1f-5a22-485e-8435-a4fb6ac82354: knappe1a # knappe1a
     46e4a549-c452-4c86-a78f-65d94063337f: 'Hintergrundfarbe Element' # Hintergrundfarbe Element
@@ -60,6 +63,7 @@ meta:
     4963083f-af8e-4ec4-b198-cd437110bdd0: Bild # Bild
     78036043-2fae-4f1d-a283-3309b27d1e5e: Newstitel # Newstitel
     95304307-4802-49bd-87db-1fe67d82846f: Kurzbeschreibung # Kurzbeschreibung
+    a0020019-4920-46bb-8009-e1c58b42346c: 'HTML Title' # HTML Title
     a8b1748c-8836-4480-9204-cf3b8bc8435c: 'Newsfeed Titel' # Newsfeed Titel
     aa948a80-9a83-4149-8d3d-25b247451e1d: Bild # Bild
     ac47e454-68a3-4a2a-8029-7ade4e1c7822: 'Faktenbox B' # Faktenbox B
@@ -70,6 +74,7 @@ meta:
     c0f5928e-037f-445b-abb6-88470f1b5fd0: 'Teaser B' # Teaser B
     c3a94b2c-4a80-4c5a-b665-cbcf60f3afea: 'Benennung Newsfeed' # Benennung Newsfeed
     c61c9ed6-cccb-49fb-8f3f-222f4891dc87: 'SEO / Meta' # SEO / Meta
+    cad1aee7-432b-4ec3-8f51-a8c5960b101e: Author # Author
     d089b3f4-2084-4765-8055-d88c07f82c48: 'Überschrift Aktiv' # Überschrift Aktiv
     d61c645d-1715-494e-beee-f667748a84d9: 'Newsbild Homepage' # Newsbild Homepage
     dd1e058c-bcd5-4b67-9a2a-eb4230b0c016: Standard # Standard

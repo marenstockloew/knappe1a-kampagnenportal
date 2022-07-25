@@ -1,3 +1,60 @@
+fieldLayouts:
+  f1d419ac-c043-4923-ac8f-e13c115e6db4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a0020019-4920-46bb-8009-e1c58b42346c # HTML Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9997be37-6e6d-45ed-8196-36d74573cbad
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6ebe96ac-c98c-487b-9fba-83c0508a9b8e # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a94451f-0bfa-4466-9a6c-fa877e1b59cb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cad1aee7-432b-4ec3-8f51-a8c5960b101e # Author
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4769ee90-966d-4ccc-aef9-feb7099874ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3d3da70b-9dbb-4cc9-95ec-a10e4cc9b046 # Keywords
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 233a93b5-4faf-443f-ba88-288ec7421d11
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'HTML Meta Tag'
+        uid: eef7d67c-93cd-4483-a276-9bd758febb40
+        userCondition: null
 handle: seo
 name: 'SEO / Meta'
 sortOrder: 11

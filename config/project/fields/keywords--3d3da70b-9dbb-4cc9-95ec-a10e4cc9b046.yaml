@@ -1,0 +1,24 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 24e64989-e24f-4bbc-8286-3a8f0d2f940a # SEO
+handle: keywords
+instructions: 'Hier können Sie Keywords hinzufügen, mit deren Hilfe Ihre Seite leichter gefunden werden kann.'
+name: Keywords
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showSiteMenu: false
+  source: null
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Tags
