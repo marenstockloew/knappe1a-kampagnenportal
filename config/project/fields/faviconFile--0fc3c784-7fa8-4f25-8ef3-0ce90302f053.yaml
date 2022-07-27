@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
 handle: faviconFile
-instructions: 'Hier können Sie ein Bild hochladen, welches im Browsertab als Favicon angezeigt wird.'
+instructions: "Hier können Sie ein Bild hochladen, welches (z.B. im Browsertab) als Favicon angezeigt wird.\r\nDas beste Ergebnis wird mit einem quadratischen Bild erzielt. Im Falle eines nicht-quadratischen Bildes wird um das Zentrum des Bildes herum zurechtgeschnitten."
 name: Favicon-Datei
 searchable: false
 settings:

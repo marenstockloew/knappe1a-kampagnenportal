@@ -1,5 +1,19 @@
 {% extends "index" %}
 
+{% block meta %}
+
+    	{# META TAGS #}
+		{% set pageTitle = entry.title|default('Home') ~ " | " ~ seo.HTMLtitle  %}
+		{% set pageAuthor  = seo.author | default('') %}
+
+		{% set pageDescription  = entry.descriptionEntry|default('Informationsportal') %}
+
+		<title>{{ pageTitle }}</title>
+		<meta name="description" content="{{ pageDescription }}">
+		<meta name="author" content="{{ pageAuthor }} mittels Knappe 1A productions CMS.">
+
+{% endblock %}
+
 {% block content %}
 
 	<div class="">

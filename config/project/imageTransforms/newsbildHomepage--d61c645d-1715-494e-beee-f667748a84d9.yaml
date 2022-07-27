@@ -1,9 +1,9 @@
 format: null
 handle: newsbildHomepage
-height: 225
+height: 600
 interlace: none
 mode: crop
 name: 'Newsbild Homepage'
 position: center-center
 quality: null
-width: 335
+width: 600

@@ -1,17 +1,64 @@
+
+{# FAKTENBOX A #}
 {% if faktenboxA.activated %}
 
-    <div class="bg-neutral-200 rounded-xs my-4 p-4 shadow-lg md:text-lg">
+    <div class="bg-neutral-100 shadow-lg rounded-xs my-4 p-4 md:text-lg">
+
         <h3>{{faktenboxA.titelGlobals}}</h3>
-        <p class="">{{faktenboxA.ausfuehrlicherText}}</p>
+
+        {% for block in faktenboxA.infoboxInhalt.all() %}
+    
+            {# Text #}
+		    {% if block.type == "textelementInfobox" %}
+                <div>
+				    {{ block.textelementInfobox|markdown }}
+                </div>
+
+            {# Image #}
+		    {% elseif block.type == "bildInfobox" %}
+		        {% set image = block.bildInfobox.one() %}
+		        {% if image %}
+                    {% do image.setTransform('bildInfobox') %}
+                    <div class="my-5">
+				        <img class="mx-auto h-auto" src="{{ image.url }}" width="{{ image.getWidth('bildInfobox') }}" height="{{ image.getHeight('bildInfobox') }}" alt="{{ image.title }}">
+                    </div>
+		        {% endif %}
+            {% endif %}
+
+        {% endfor %}
+
     </div>
 
 {% endif %}
 
+
+{# FAKTENBOX B #}
 {% if faktenboxB.activated %}
 
-    <div class="bg-neutral-200 rounded-xs my-4 p-4 shadow-lg md:text-lg">
+    <div class="bg-neutral-100 shadow-lg rounded-xs my-4 p-4 md:text-lg">
+
         <h3>{{faktenboxB.titelGlobals}}</h3>
-        <p class="">{{faktenboxB.ausfuehrlicherText}}</p>
+
+        {% for block in faktenboxB.infoboxInhalt.all() %}
+
+            {# Text #}
+			{% if block.type == "textelementInfobox" %}
+                <div>
+					{{ block.textelementInfobox|markdown }}
+                </div>
+
+            {# Image #}
+			{% elseif block.type == "bildInfobox" %}
+				{% set image = block.bildInfobox.one() %}
+				{% if image %}
+                    <div class="my-5">
+						<img class="mx-auto h-auto" src="{{ image.getUrl('bildInfobox') }}" width="{{ image.getWidth('bildInfobox') }}" height="{{ image.getHeight('bildInfobox') }}" alt="{{ image.title }}">
+                    </div>
+				{% endif %}
+            {% endif %}
+
+        {% endfor %}
+
     </div>
 
 {% endif %}

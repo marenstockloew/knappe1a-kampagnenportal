@@ -1,0 +1,54 @@
+field: 1f0b3b9b-e2c7-4355-bb8d-115c78f65035 # Inhalt Infobox
+fieldLayouts:
+  2d2b44aa-5a1b-4c33-a08e-babe420eea9b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a3fa74fd-2861-4b2d-ad50-5100ca9611fa # Textelement
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 02f15122-b023-41f5-80e1-d5d41352722b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b37a1f1c-5b4e-41d1-9eff-ca725c196d14
+        userCondition: null
+fields:
+  a3fa74fd-2861-4b2d-ad50-5100ca9611fa: # Textelement
+    columnSuffix: wzkexjfs
+    contentColumnType: text
+    fieldGroup: null
+    handle: textelementInfobox
+    instructions: null
+    name: Textelement
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: textelementInfobox
+name: Text
+sortOrder: 1

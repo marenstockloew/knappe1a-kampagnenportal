@@ -1,0 +1,73 @@
+field: 1f0b3b9b-e2c7-4355-bb8d-115c78f65035 # Inhalt Infobox
+fieldLayouts:
+  5892ceea-f888-44c9-ad4d-e18288ff8402:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ecbb504d-4519-4bdb-93a4-cc299124cc18 # Bild
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f323e45-3b99-49c6-9ac6-0652721a74a4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d0fbb4fa-3b40-4acd-98d0-5a0504a8ba9d
+        userCondition: null
+fields:
+  ecbb504d-4519-4bdb-93a4-cc299124cc18: # Bild
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: bildInfobox
+    instructions: 'Hier können Sie ein Foto hochladen.'
+    name: Bild
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:92e31a9d-1a1a-4905-a8d0-fc18a00d2b9a' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: bildInfobox
+name: Bild
+sortOrder: 2

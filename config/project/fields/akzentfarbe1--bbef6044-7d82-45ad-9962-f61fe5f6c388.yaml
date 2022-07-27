@@ -2,7 +2,7 @@ columnSuffix: vefhmaqt
 contentColumnType: string(7)
 fieldGroup: 59e772b9-cba7-4595-bc1b-d793dd49429a # Globals
 handle: akzentfarbe1
-instructions: "Hier können Sie eine beliebige Akzentfarbe entsprechend auswählen, in welcher Teile des Textes (Datum, 'nächste Seite' etc.) angezeigt werden.\r\n\r\nFalls Sie hier nichts auswählen, haben diese Komponenten die gleiche schwarze Farbe wie der restliche Text."
+instructions: 'Hier können Sie eine beliebige Akzentfarbe entsprechend auswählen, in welcher Teile des Textes (Datum, ''nächste Seite'' etc.) angezeigt werden.'
 name: 'Akzentfarbe 1'
 searchable: false
 settings:

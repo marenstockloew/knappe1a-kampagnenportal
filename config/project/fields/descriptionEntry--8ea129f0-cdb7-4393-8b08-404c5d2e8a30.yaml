@@ -1,9 +1,9 @@
-columnSuffix: mjvwnyko
+columnSuffix: djrucjpt
 contentColumnType: string(640)
 fieldGroup: 24e64989-e24f-4bbc-8286-3a8f0d2f940a # SEO
-handle: description
-instructions: "Eine kurze Beschreibung des Inhalts der Startseite.\r\nDiese wird zB unter der Überschrift bei einer Google-Suche angezeigt. Bitte verwenden Sie höchstens 160 Zeichen."
-name: Beschreibung
+handle: descriptionEntry
+instructions: "Eine kurze Beschreibung des Artikels für SEO.\r\nDiese wird zB unter der Überschrift bei einer Google-Suche angezeigt. Bitte verwenden Sie höchstens 160 Zeichen."
+name: 'Beschreibung '
 searchable: false
 settings:
   byteLimit: null

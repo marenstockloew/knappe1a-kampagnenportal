@@ -30,13 +30,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 6bb66f74-adc8-4919-9f78-89a964482176 # Ausführlicher Text
+            fieldUid: 1f0b3b9b-e2c7-4355-bb8d-115c78f65035 # Inhalt Infobox
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 033322a0-c3ec-4ac6-81a1-7e2d4f668edb
+            uid: e65d5e7b-adde-49d5-88ff-0abf37e9df79
             userCondition: null
             warning: null
             width: 100
